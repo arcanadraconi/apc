@@ -2,125 +2,180 @@ import { Category, Product } from '../types/catalog';
 
 export const categories: Category[] = [
   {
-    id: 'endmills',
-    name: 'ENDMILLS',
-    description: 'Precision end mills for milling and profiling operations',
-    image: '/images/categories/endmills.jpg',
+    id: 'standard-endmills',
+    name: 'STANDARD ENDMILLS',
+    description: 'Standard precision end mills for general milling applications',
+    image: '/src/components/images/cat1.png',
     background: 'bg-blue-900',
     subcategories: [
-      {
-        id: 'square-end-mills',
-        name: 'Square End Mills',
-        description: 'Standard square end mills for general milling',
-        categoryId: 'endmills',
-        dimensionType: 'metric',
-        specifications: [
-          'Diameter Range: 1mm - 25mm',
-          'Multiple Flute Options (2,3,4)',
-          'PowerA Coating Available'
-        ]
-      },
-      {
-        id: 'ball-end-mills',
-        name: 'Ball End Mills',
-        description: '3D contour machining and profiling',
-        categoryId: 'endmills',
-        dimensionType: 'metric',
-        specifications: [
-          'Full Radius End',
-          'Various Neck Lengths'
-        ]
-      },
-      {
-        id: 'corner-radius-end-mills',
-        name: 'Corner Radius End Mills',
-        description: 'End mills with rounded corners for improved tool life',
-        categoryId: 'endmills',
-        dimensionType: 'metric',
-        specifications: [
-          'Various Corner Radii',
-          'Extended Tool Life'
-        ]
-      }
+      // ... existing subcategories ...
     ]
   },
   {
     id: 'high-performance-endmills',
     name: 'HIGH PERFORMANCE ENDMILLS',
-    description: 'Advanced end mills for demanding applications',
-    image: '/images/categories/high-performance-endmills.jpg',
-    background: 'bg-red-900',
-    subcategories: []
-  },
-  {
-    id: 'pro-performance-endmills',
-    name: 'PRO+ PERFORMANCE ENDMILLS',
-    description: 'Premium grade tools for maximum performance',
-    image: '/images/categories/pro-performance-endmills.jpg',
-    background: 'bg-red-800',
-    subcategories: []
-  },
-  {
-    id: 'high-performance-routers',
-    name: 'HIGH PERFORMANCE ROUTERS',
-    description: 'Specialized routers for high-speed applications',
-    image: '/images/categories/high-performance-routers.jpg',
+    description: 'Advanced end mills for superior performance and tool life',
+    image: '/src/components/images/cat2.png',
     background: 'bg-purple-900',
-    subcategories: []
+    subcategories: [
+      {
+        id: 'v4-square-endmills',
+        name: 'V4 Square End Mills',
+        description: 'Variable helix and index design for reduced harmonics',
+        categoryId: 'high-performance-endmills',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL', '4-Flute']
+      },
+      {
+        id: 'v4-ball-endmills',
+        name: 'V4 Ball End Mills',
+        description: 'Variable helix ball nose design for 3D machining',
+        categoryId: 'high-performance-endmills',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL', '4-Flute']
+      }
+    ]
+  },
+  {
+    id: 'thread-mills',
+    name: 'THREAD MILLS',
+    description: 'Precision thread milling tools for various thread forms',
+    image: '/src/components/images/cat3.png',
+    background: 'bg-green-900',
+    subcategories: [
+      {
+        id: 'un-thread-mills',
+        name: 'UN Thread Mills',
+        description: 'For unified national thread forms',
+        categoryId: 'thread-mills',
+        specifications: ['Thread Size', 'OD', 'LOC', 'SHK', 'OAL']
+      },
+      {
+        id: 'metric-thread-mills',
+        name: 'Metric Thread Mills',
+        description: 'For metric thread forms',
+        categoryId: 'thread-mills',
+        specifications: ['Thread Size', 'OD', 'LOC', 'SHK', 'OAL']
+      }
+    ]
   },
   {
     id: 'drills',
     name: 'DRILLS',
-    description: 'Precision drilling solutions',
-    image: '/images/categories/drills.jpg',
-    background: 'bg-blue-800',
-    subcategories: []
+    description: 'High-performance drilling solutions',
+    image: '/src/components/images/cat4.png',
+    background: 'bg-red-900',
+    subcategories: [
+      {
+        id: 'carbide-drills',
+        name: 'Carbide Drills',
+        description: 'Solid carbide drills for precision hole-making',
+        categoryId: 'drills',
+        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
+      },
+      {
+        id: 'high-performance-drills',
+        name: 'High Performance Drills',
+        description: 'Advanced geometry drills for difficult materials',
+        categoryId: 'drills',
+        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
+      }
+    ]
   },
   {
-    id: 'reamers-threadmills',
-    name: 'REAMERS AND THREADMILLS',
-    description: 'Precision hole finishing and thread milling',
-    image: '/images/categories/reamers-threadmills.jpg',
+    id: 'reamers',
+    name: 'REAMERS',
+    description: 'Precision hole finishing tools',
+    image: '/src/components/images/cat5.png',
     background: 'bg-yellow-900',
-    subcategories: []
+    subcategories: [
+      {
+        id: 'carbide-reamers',
+        name: 'Carbide Reamers',
+        description: 'Solid carbide reamers for precise hole sizing',
+        categoryId: 'reamers',
+        specifications: ['Diameter', 'LOC', 'SHK', 'OAL']
+      },
+      {
+        id: 'adjustable-reamers',
+        name: 'Adjustable Reamers',
+        description: 'Adjustable diameter reamers for flexible sizing',
+        categoryId: 'reamers',
+        specifications: ['Diameter Range', 'LOC', 'SHK', 'OAL']
+      }
+    ]
   },
   {
-    id: 'burs-fiberglass',
-    name: 'BURS & FIBERGLASS ROUTING',
-    description: 'Specialized tools for composite materials',
-    image: '/images/categories/burs-fiberglass.jpg',
-    background: 'bg-green-900',
-    subcategories: []
+    id: 'specialty-tools',
+    name: 'SPECIALTY TOOLS',
+    description: 'Custom and special application cutting tools',
+    image: '/src/components/images/cat6.png',
+    background: 'bg-indigo-900',
+    subcategories: [
+      {
+        id: 'chamfer-mills',
+        name: 'Chamfer Mills',
+        description: 'For precise edge breaking and chamfering',
+        categoryId: 'specialty-tools',
+        specifications: ['Diameter', 'Angle', 'LOC', 'SHK', 'OAL']
+      },
+      {
+        id: 'deburring-tools',
+        name: 'Deburring Tools',
+        description: 'For efficient burr removal and edge finishing',
+        categoryId: 'specialty-tools',
+        specifications: ['Diameter', 'Style', 'LOC', 'SHK', 'OAL']
+      }
+    ]
+  },
+  {
+    id: 'micro-tools',
+    name: 'MICRO TOOLS',
+    description: 'Ultra-small diameter cutting tools',
+    image: '/src/components/images/cat7.png',
+    background: 'bg-pink-900',
+    subcategories: [
+      {
+        id: 'micro-endmills',
+        name: 'Micro End Mills',
+        description: 'Miniature end mills for precision machining',
+        categoryId: 'micro-tools',
+        specifications: ['Diameter', 'LOC', 'SHK', 'OAL', 'Flutes']
+      },
+      {
+        id: 'micro-drills',
+        name: 'Micro Drills',
+        description: 'Small diameter precision drills',
+        categoryId: 'micro-tools',
+        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
+      }
+    ]
+  },
+  {
+    id: 'indexable-tools',
+    name: 'INDEXABLE TOOLS',
+    description: 'Tools with replaceable cutting inserts',
+    image: '/src/components/images/cat8.png',
+    background: 'bg-cyan-900',
+    subcategories: [
+      {
+        id: 'indexable-endmills',
+        name: 'Indexable End Mills',
+        description: 'End mills with indexable inserts',
+        categoryId: 'indexable-tools',
+        specifications: ['Body Diameter', 'Insert Size', 'LOC', 'SHK', 'OAL']
+      },
+      {
+        id: 'indexable-drills',
+        name: 'Indexable Drills',
+        description: 'Drills with indexable inserts',
+        categoryId: 'indexable-tools',
+        specifications: ['Body Diameter', 'Insert Size', 'Drill Depth', 'Shank Type']
+      }
+    ]
   }
 ];
 
-// Sample product data structure
 export const products: Product[] = [
-  {
-    id: 'cr-001',
-    sku: '204-454',
-    name: 'Corner Radius End Mill - 1mm',
-    category: 'endmills',
-    subcategory: 'corner-radius-end-mills',
-    description: 'Corner radius end mill with 0.45mm radius',
-    image: '/images/products/corner-radius-endmill.png',
-    specifications: {
-      diameter: '1',
-      lengthOfCut: '1/2',
-      shankDiameter: '3',
-      overallLength: 'L2',
-      flutes: 2,
-      coating: 'Uncoated',
-      partNumber: '204-454'
-    },
-    variants: {
-      twoFlute: '204-454',
-      fourFlute: '211-454',
-      twoFlutePowerA: '204-454-1',
-      fourFlutePowerA: '211-454-1'
-    }
-  }
-  // More products will be added from CSV data
+  // Products will be populated from CSV/PDF data
 ];
 
 // Helper function to parse CSV data into products
@@ -131,10 +186,10 @@ export function parseCSVToProducts(csvData: string[][], subcategoryId: string): 
     return {
       id: `${subcategoryId}-${index}`,
       sku: twoFlute || '',
-      name: `End Mill - ${od}${subcategoryId.includes('metric') ? 'mm' : '"'}`,
-      category: 'endmills',
+      name: `End Mill - ${od}"`,
+      category: 'standard-endmills',
       subcategory: subcategoryId,
-      description: `End mill with ${loc}${subcategoryId.includes('metric') ? 'mm' : '"'} length of cut`,
+      description: `End mill with ${loc}" length of cut`,
       image: '/images/products/endmill.png',
       specifications: {
         diameter: od,
