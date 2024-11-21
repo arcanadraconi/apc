@@ -1,0 +1,937 @@
+[
+  {
+    "id": "200-108",
+    "sku": "200-108",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "200-108"
+    },
+    "variants": {}
+  },
+  {
+    "id": "200-110",
+    "sku": "200-110",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "200-110"
+    },
+    "variants": {}
+  },
+  {
+    "id": "200-112",
+    "sku": "200-112",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "200-112"
+    },
+    "variants": {}
+  },
+  {
+    "id": "203-012",
+    "sku": "203-012",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "203-012"
+    },
+    "variants": {}
+  },
+  {
+    "id": "203-014",
+    "sku": "203-014",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "203-014"
+    },
+    "variants": {}
+  },
+  {
+    "id": "203-016",
+    "sku": "203-016",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "22",
+      "partNumber": "203-016"
+    },
+    "variants": {}
+  },
+  {
+    "id": "428-010",
+    "sku": "428-010",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "23",
+      "partNumber": "428-010"
+    },
+    "variants": {}
+  },
+  {
+    "id": "428-012",
+    "sku": "428-012",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "23",
+      "partNumber": "428-012"
+    },
+    "variants": {}
+  },
+  {
+    "id": "428-014",
+    "sku": "428-014",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "23",
+      "partNumber": "428-014"
+    },
+    "variants": {}
+  },
+  {
+    "id": "459-022-5",
+    "sku": "459-022-5",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "459-022-5"
+    },
+    "variants": {}
+  },
+  {
+    "id": "459-024-5",
+    "sku": "459-024-5",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "459-024-5"
+    },
+    "variants": {}
+  },
+  {
+    "id": "824-032-7",
+    "sku": "824-032-7",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "824-032-7"
+    },
+    "variants": {}
+  },
+  {
+    "id": "824-034-7",
+    "sku": "824-034-7",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "824-034-7"
+    },
+    "variants": {}
+  },
+  {
+    "id": "826-020-7",
+    "sku": "826-020-7",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "826-020-7"
+    },
+    "variants": {}
+  },
+  {
+    "id": "826-022-7",
+    "sku": "826-022-7",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "826-022-7"
+    },
+    "variants": {}
+  },
+  {
+    "id": "601-044",
+    "sku": "601-044",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "2",
+      "lengthOfCut": "118",
+      "shankDiameter": "3",
+      "overallLength": "130",
+      "partNumber": "601-044"
+    },
+    "variants": {}
+  },
+  {
+    "id": "601-046-6",
+    "sku": "601-046-6",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "2",
+      "lengthOfCut": "118",
+      "shankDiameter": "3",
+      "overallLength": "130",
+      "partNumber": "601-046-6"
+    },
+    "variants": {}
+  },
+  {
+    "id": "601-048-6",
+    "sku": "601-048-6",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "2",
+      "lengthOfCut": "118",
+      "shankDiameter": "3",
+      "overallLength": "130",
+      "partNumber": "601-048-6"
+    },
+    "variants": {}
+  },
+  {
+    "id": "600-408",
+    "sku": "600-408",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "260",
+      "partNumber": "600-408"
+    },
+    "variants": {}
+  },
+  {
+    "id": "600-410",
+    "sku": "600-410",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "260",
+      "partNumber": "600-410"
+    },
+    "variants": {}
+  },
+  {
+    "id": "600-412",
+    "sku": "600-412",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "260",
+      "partNumber": "600-412"
+    },
+    "variants": {}
+  },
+  {
+    "id": "600-318",
+    "sku": "600-318",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "118",
+      "lengthOfCut": "60",
+      "shankDiameter": "82",
+      "overallLength": "90",
+      "partNumber": "600-318"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-012",
+    "sku": "680-012",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-012"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-014",
+    "sku": "680-014",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-014"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-016",
+    "sku": "680-016",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-016"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-612",
+    "sku": "680-612",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-612"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-614",
+    "sku": "680-614",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-614"
+    },
+    "variants": {}
+  },
+  {
+    "id": "680-616",
+    "sku": "680-616",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "2",
+      "shankDiameter": "260",
+      "overallLength": "82",
+      "partNumber": "680-616"
+    },
+    "variants": {}
+  },
+  {
+    "id": "750-234",
+    "sku": "750-234",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "3",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "750-234"
+    },
+    "variants": {}
+  },
+  {
+    "id": "750-236",
+    "sku": "750-236",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "3",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "750-236"
+    },
+    "variants": {}
+  },
+  {
+    "id": "750-320",
+    "sku": "750-320",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "3",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "750-320"
+    },
+    "variants": {}
+  },
+  {
+    "id": "750-322",
+    "sku": "750-322",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "3",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "750-322"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-038",
+    "sku": "751-038",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-038"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-040",
+    "sku": "751-040",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-040"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-218",
+    "sku": "751-218",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "3",
+      "overallLength": "2",
+      "partNumber": "751-218"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-276",
+    "sku": "751-276",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-276"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-278",
+    "sku": "751-278",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-278"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-334",
+    "sku": "751-334",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-334"
+    },
+    "variants": {}
+  },
+  {
+    "id": "751-336",
+    "sku": "751-336",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "751-336"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-558",
+    "sku": "752-558",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-558"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-560",
+    "sku": "752-560",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-560"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-630",
+    "sku": "752-630",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-630"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-632",
+    "sku": "752-632",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-632"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-700",
+    "sku": "752-700",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-700"
+    },
+    "variants": {}
+  },
+  {
+    "id": "752-702",
+    "sku": "752-702",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "8",
+      "lengthOfCut": "2",
+      "shankDiameter": "140",
+      "overallLength": "30",
+      "partNumber": "752-702"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-218",
+    "sku": "645-218",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-218"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-220",
+    "sku": "645-220",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-220"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-221",
+    "sku": "645-221",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-221"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-509",
+    "sku": "645-509",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-509"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-519",
+    "sku": "645-519",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-519"
+    },
+    "variants": {}
+  },
+  {
+    "id": "645-520",
+    "sku": "645-520",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1",
+      "lengthOfCut": "1",
+      "shankDiameter": "2",
+      "overallLength": "2",
+      "partNumber": "645-520"
+    },
+    "variants": {}
+  },
+  {
+    "id": "005-102",
+    "sku": "005-102",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1.4",
+      "lengthOfCut": "250",
+      "shankDiameter": "4140",
+      "overallLength": "4340",
+      "partNumber": "005-102"
+    },
+    "variants": {}
+  },
+  {
+    "id": "030-106",
+    "sku": "030-106",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "1.4",
+      "lengthOfCut": "250",
+      "shankDiameter": "4140",
+      "overallLength": "4340",
+      "partNumber": "030-106"
+    },
+    "variants": {}
+  },
+  {
+    "id": "318-329",
+    "sku": "318-329",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "3.1",
+      "lengthOfCut": "150",
+      "shankDiameter": "10",
+      "overallLength": "40",
+      "partNumber": "318-329"
+    },
+    "variants": {}
+  },
+  {
+    "id": "911-496",
+    "sku": "911-496",
+    "name": "Fractional Square Endmill",
+    "category": "Endmills",
+    "subcategory": "Fractional",
+    "description": "",
+    "image": "",
+    "specifications": {
+      "diameter": "5.2",
+      "lengthOfCut": "270",
+      "shankDiameter": "400",
+      "overallLength": "625",
+      "partNumber": "911-496"
+    },
+    "variants": {}
+  }
+]

@@ -1,0 +1,4580 @@
+{
+  "fractional": [
+    {
+      "id": "fractional-square-0",
+      "sku": "213-102",
+      "name": "Fractional Square End Mill - 1/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/32",
+        "lengthOfCut": "1/16",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-102"
+      },
+      "variants": {
+        "twoFlute": "213-102",
+        "threeFlute": "",
+        "fourFlute": "213-702",
+        "twoFlutePowerA": "213-102-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-702-1"
+      }
+    },
+    {
+      "id": "fractional-square-1",
+      "sku": "209-202",
+      "name": "Fractional Square End Mill - 1/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/32\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/32",
+        "lengthOfCut": "3/32",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-202"
+      },
+      "variants": {
+        "twoFlute": "209-202",
+        "threeFlute": "210-202",
+        "fourFlute": "211-202",
+        "twoFlutePowerA": "209-202-1",
+        "threeFlutePowerA": "210-202-1",
+        "fourFlutePowerA": "211-202-1"
+      }
+    },
+    {
+      "id": "fractional-square-2",
+      "sku": "213-104",
+      "name": "Fractional Square End Mill - 3/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/32\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/64",
+        "lengthOfCut": "3/32",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-104"
+      },
+      "variants": {
+        "twoFlute": "213-104",
+        "threeFlute": "",
+        "fourFlute": "213-704",
+        "twoFlutePowerA": "213-104-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-704-1"
+      }
+    },
+    {
+      "id": "fractional-square-3",
+      "sku": "209-204",
+      "name": "Fractional Square End Mill - 3/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/64",
+        "lengthOfCut": "1/8",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-204"
+      },
+      "variants": {
+        "twoFlute": "209-204",
+        "threeFlute": "210-204",
+        "fourFlute": "211-204",
+        "twoFlutePowerA": "209-204-1",
+        "threeFlutePowerA": "210-204-1",
+        "fourFlutePowerA": "211-204-1"
+      }
+    },
+    {
+      "id": "fractional-square-4",
+      "sku": "213-106",
+      "name": "Fractional Square End Mill - 1/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/16",
+        "lengthOfCut": "1/8",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-106"
+      },
+      "variants": {
+        "twoFlute": "213-106",
+        "threeFlute": "",
+        "fourFlute": "213-706",
+        "twoFlutePowerA": "213-106-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-706-1"
+      }
+    },
+    {
+      "id": "fractional-square-5",
+      "sku": "209-206",
+      "name": "Fractional Square End Mill - 1/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/16",
+        "lengthOfCut": "1/4",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-206"
+      },
+      "variants": {
+        "twoFlute": "209-206",
+        "threeFlute": "210-206",
+        "fourFlute": "211-206",
+        "twoFlutePowerA": "209-206-1",
+        "threeFlutePowerA": "210-206-1",
+        "fourFlutePowerA": "211-206-1"
+      }
+    },
+    {
+      "id": "fractional-square-6",
+      "sku": "209-208",
+      "name": "Fractional Square End Mill - 5/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/64",
+        "lengthOfCut": "1/4",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-208"
+      },
+      "variants": {
+        "twoFlute": "209-208",
+        "threeFlute": "210-208",
+        "fourFlute": "211-208",
+        "twoFlutePowerA": "209-208-1",
+        "threeFlutePowerA": "210-208-1",
+        "fourFlutePowerA": "211-208-1"
+      }
+    },
+    {
+      "id": "fractional-square-7",
+      "sku": "213-108",
+      "name": "Fractional Square End Mill - 3/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/32",
+        "lengthOfCut": "3/16",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-108"
+      },
+      "variants": {
+        "twoFlute": "213-108",
+        "threeFlute": "",
+        "fourFlute": "213-708",
+        "twoFlutePowerA": "213-108-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-708-1"
+      }
+    },
+    {
+      "id": "fractional-square-8",
+      "sku": "209-210",
+      "name": "Fractional Square End Mill - 3/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/32",
+        "lengthOfCut": "3/8",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-210"
+      },
+      "variants": {
+        "twoFlute": "209-210",
+        "threeFlute": "210-210",
+        "fourFlute": "211-210",
+        "twoFlutePowerA": "209-210-1",
+        "threeFlutePowerA": "210-210-1",
+        "fourFlutePowerA": "211-210-1"
+      }
+    },
+    {
+      "id": "fractional-square-9",
+      "sku": "209-212",
+      "name": "Fractional Square End Mill - 7/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/64",
+        "lengthOfCut": "3/8",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-212"
+      },
+      "variants": {
+        "twoFlute": "209-212",
+        "threeFlute": "210-212",
+        "fourFlute": "211-212",
+        "twoFlutePowerA": "209-212-1",
+        "threeFlutePowerA": "210-212-1",
+        "fourFlutePowerA": "211-212-1"
+      }
+    },
+    {
+      "id": "fractional-square-10",
+      "sku": "213-112",
+      "name": "Fractional Square End Mill - 1/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/8",
+        "lengthOfCut": "1/4",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-112"
+      },
+      "variants": {
+        "twoFlute": "213-112",
+        "threeFlute": "",
+        "fourFlute": "213-712",
+        "twoFlutePowerA": "213-112-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-712-1"
+      }
+    },
+    {
+      "id": "fractional-square-11",
+      "sku": "209-214",
+      "name": "Fractional Square End Mill - 1/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/8",
+        "lengthOfCut": "1/2",
+        "shankDiameter": "1/8",
+        "overallLength": "1-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-214"
+      },
+      "variants": {
+        "twoFlute": "209-214",
+        "threeFlute": "210-214",
+        "fourFlute": "211-214",
+        "twoFlutePowerA": "209-214-1",
+        "threeFlutePowerA": "210-214-1",
+        "fourFlutePowerA": "211-214-1"
+      }
+    },
+    {
+      "id": "fractional-square-12",
+      "sku": "204-202",
+      "name": "Fractional Square End Mill - 1/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/8",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "1/8",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-202"
+      },
+      "variants": {
+        "twoFlute": "204-202",
+        "threeFlute": "",
+        "fourFlute": "206-202",
+        "twoFlutePowerA": "204-202-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-202-1"
+      }
+    },
+    {
+      "id": "fractional-square-13",
+      "sku": "204-204",
+      "name": "Fractional Square End Mill - 1/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/8",
+        "lengthOfCut": "3/4",
+        "shankDiameter": "1/8",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-204"
+      },
+      "variants": {
+        "twoFlute": "204-204",
+        "threeFlute": "",
+        "fourFlute": "206-204",
+        "twoFlutePowerA": "204-204-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-204-1"
+      }
+    },
+    {
+      "id": "fractional-square-14",
+      "sku": "204-206",
+      "name": "Fractional Square End Mill - 1/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/8",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/8",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-206"
+      },
+      "variants": {
+        "twoFlute": "204-206",
+        "threeFlute": "",
+        "fourFlute": "206-206",
+        "twoFlutePowerA": "204-206-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-206-1"
+      }
+    },
+    {
+      "id": "fractional-square-15",
+      "sku": "209-216",
+      "name": "Fractional Square End Mill - 9/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 9/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "9/64",
+        "lengthOfCut": "9/16",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-216"
+      },
+      "variants": {
+        "twoFlute": "209-216",
+        "threeFlute": "210-216",
+        "fourFlute": "211-216",
+        "twoFlutePowerA": "209-216-1",
+        "threeFlutePowerA": "210-216-1",
+        "fourFlutePowerA": "211-216-1"
+      }
+    },
+    {
+      "id": "fractional-square-16",
+      "sku": "213-110",
+      "name": "Fractional Square End Mill - 5/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/32",
+        "lengthOfCut": "5/16",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-110"
+      },
+      "variants": {
+        "twoFlute": "213-110",
+        "threeFlute": "",
+        "fourFlute": "213-710",
+        "twoFlutePowerA": "213-110-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-710-1"
+      }
+    },
+    {
+      "id": "fractional-square-17",
+      "sku": "209-218",
+      "name": "Fractional Square End Mill - 5/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 9/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/32",
+        "lengthOfCut": "9/16",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-218"
+      },
+      "variants": {
+        "twoFlute": "209-218",
+        "threeFlute": "210-218",
+        "fourFlute": "211-218",
+        "twoFlutePowerA": "209-218-1",
+        "threeFlutePowerA": "210-218-1",
+        "fourFlutePowerA": "211-218-1"
+      }
+    },
+    {
+      "id": "fractional-square-18",
+      "sku": "209-220",
+      "name": "Fractional Square End Mill - 11/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 9/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "11/64",
+        "lengthOfCut": "9/16",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-220"
+      },
+      "variants": {
+        "twoFlute": "209-220",
+        "threeFlute": "210-220",
+        "fourFlute": "211-220",
+        "twoFlutePowerA": "209-220-1",
+        "threeFlutePowerA": "210-220-1",
+        "fourFlutePowerA": "211-220-1"
+      }
+    },
+    {
+      "id": "fractional-square-19",
+      "sku": "213-114",
+      "name": "Fractional Square End Mill - 3/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/16",
+        "lengthOfCut": "3/8",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-114"
+      },
+      "variants": {
+        "twoFlute": "213-114",
+        "threeFlute": "",
+        "fourFlute": "213-714",
+        "twoFlutePowerA": "213-114-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-714-1"
+      }
+    },
+    {
+      "id": "fractional-square-20",
+      "sku": "209-222",
+      "name": "Fractional Square End Mill - 3/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/16",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "3/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-222"
+      },
+      "variants": {
+        "twoFlute": "209-222",
+        "threeFlute": "210-222",
+        "fourFlute": "211-222",
+        "twoFlutePowerA": "209-222-1",
+        "threeFlutePowerA": "210-222-1",
+        "fourFlutePowerA": "211-222-1"
+      }
+    },
+    {
+      "id": "fractional-square-21",
+      "sku": "204-208",
+      "name": "Fractional Square End Mill - 3/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/16",
+        "lengthOfCut": "3/4",
+        "shankDiameter": "3/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-208"
+      },
+      "variants": {
+        "twoFlute": "204-208",
+        "threeFlute": "",
+        "fourFlute": "206-208",
+        "twoFlutePowerA": "204-208-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-208-1"
+      }
+    },
+    {
+      "id": "fractional-square-22",
+      "sku": "204-210",
+      "name": "Fractional Square End Mill - 3/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/16",
+        "lengthOfCut": "1-1/8",
+        "shankDiameter": "3/16",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-210"
+      },
+      "variants": {
+        "twoFlute": "204-210",
+        "threeFlute": "",
+        "fourFlute": "206-210",
+        "twoFlutePowerA": "204-210-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-210-1"
+      }
+    },
+    {
+      "id": "fractional-square-23",
+      "sku": "204-212",
+      "name": "Fractional Square End Mill - 3/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/16",
+        "lengthOfCut": "1",
+        "shankDiameter": "3/16",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-212"
+      },
+      "variants": {
+        "twoFlute": "204-212",
+        "threeFlute": "",
+        "fourFlute": "206-212",
+        "twoFlutePowerA": "204-212-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-212-1"
+      }
+    },
+    {
+      "id": "fractional-square-24",
+      "sku": "209-224",
+      "name": "Fractional Square End Mill - 13/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "13/64",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "1/4",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-224"
+      },
+      "variants": {
+        "twoFlute": "209-224",
+        "threeFlute": "210-224",
+        "fourFlute": "211-224",
+        "twoFlutePowerA": "209-224-1",
+        "threeFlutePowerA": "210-224-1",
+        "fourFlutePowerA": "211-224-1"
+      }
+    },
+    {
+      "id": "fractional-square-25",
+      "sku": "213-116",
+      "name": "Fractional Square End Mill - 7/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/16\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/32",
+        "lengthOfCut": "7/16",
+        "shankDiameter": "1/4",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-116"
+      },
+      "variants": {
+        "twoFlute": "213-116",
+        "threeFlute": "",
+        "fourFlute": "213-716",
+        "twoFlutePowerA": "213-116-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-716-1"
+      }
+    },
+    {
+      "id": "fractional-square-26",
+      "sku": "209-226",
+      "name": "Fractional Square End Mill - 7/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/32",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "1/4",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-226"
+      },
+      "variants": {
+        "twoFlute": "209-226",
+        "threeFlute": "210-226",
+        "fourFlute": "211-226",
+        "twoFlutePowerA": "209-226-1",
+        "threeFlutePowerA": "210-226-1",
+        "fourFlutePowerA": "211-226-1"
+      }
+    },
+    {
+      "id": "fractional-square-27",
+      "sku": "209-228",
+      "name": "Fractional Square End Mill - 15/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "15/64",
+        "lengthOfCut": "3/4",
+        "shankDiameter": "1/4",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-228"
+      },
+      "variants": {
+        "twoFlute": "209-228",
+        "threeFlute": "210-228",
+        "fourFlute": "211-228",
+        "twoFlutePowerA": "209-228-1",
+        "threeFlutePowerA": "210-228-1",
+        "fourFlutePowerA": "211-228-1"
+      }
+    },
+    {
+      "id": "fractional-square-28",
+      "sku": "213-118",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "1/2",
+        "shankDiameter": "1/4",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-118"
+      },
+      "variants": {
+        "twoFlute": "213-118",
+        "threeFlute": "",
+        "fourFlute": "213-718",
+        "twoFlutePowerA": "213-118-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-718-1"
+      }
+    },
+    {
+      "id": "fractional-square-29",
+      "sku": "209-230",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "3/4",
+        "shankDiameter": "1/4",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-230"
+      },
+      "variants": {
+        "twoFlute": "209-230",
+        "threeFlute": "210-230",
+        "fourFlute": "211-230",
+        "twoFlutePowerA": "209-230-1",
+        "threeFlutePowerA": "210-230-1",
+        "fourFlutePowerA": "211-230-1"
+      }
+    },
+    {
+      "id": "fractional-square-30",
+      "sku": "204-214",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "1-1/8",
+        "shankDiameter": "1/4",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-214"
+      },
+      "variants": {
+        "twoFlute": "204-214",
+        "threeFlute": "",
+        "fourFlute": "206-214",
+        "twoFlutePowerA": "204-214-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-214-1"
+      }
+    },
+    {
+      "id": "fractional-square-31",
+      "sku": "204-216",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/4",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-216"
+      },
+      "variants": {
+        "twoFlute": "204-216",
+        "threeFlute": "",
+        "fourFlute": "206-216",
+        "twoFlutePowerA": "204-216-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-216-1"
+      }
+    },
+    {
+      "id": "fractional-square-32",
+      "sku": "204-218",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "1/4",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-218"
+      },
+      "variants": {
+        "twoFlute": "204-218",
+        "threeFlute": "",
+        "fourFlute": "206-218",
+        "twoFlutePowerA": "204-218-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-218-1"
+      }
+    },
+    {
+      "id": "fractional-square-33",
+      "sku": "204-220",
+      "name": "Fractional Square End Mill - 1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/4",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "1/4",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-220"
+      },
+      "variants": {
+        "twoFlute": "204-220",
+        "threeFlute": "",
+        "fourFlute": "206-220",
+        "twoFlutePowerA": "204-220-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-220-1"
+      }
+    },
+    {
+      "id": "fractional-square-34",
+      "sku": "209-232",
+      "name": "Fractional Square End Mill - 17/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "17/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "5/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-232"
+      },
+      "variants": {
+        "twoFlute": "209-232",
+        "threeFlute": "210-232",
+        "fourFlute": "211-232",
+        "twoFlutePowerA": "209-232-1",
+        "threeFlutePowerA": "210-232-1",
+        "fourFlutePowerA": "211-232-1"
+      }
+    },
+    {
+      "id": "fractional-square-35",
+      "sku": "209-234",
+      "name": "Fractional Square End Mill - 9/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "9/32",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "5/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-234"
+      },
+      "variants": {
+        "twoFlute": "209-234",
+        "threeFlute": "210-234",
+        "fourFlute": "211-234",
+        "twoFlutePowerA": "209-234-1",
+        "threeFlutePowerA": "210-234-1",
+        "fourFlutePowerA": "211-234-1"
+      }
+    },
+    {
+      "id": "fractional-square-36",
+      "sku": "209-236",
+      "name": "Fractional Square End Mill - 19/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "19/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "5/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-236"
+      },
+      "variants": {
+        "twoFlute": "209-236",
+        "threeFlute": "210-236",
+        "fourFlute": "211-236",
+        "twoFlutePowerA": "209-236-1",
+        "threeFlutePowerA": "210-236-1",
+        "fourFlutePowerA": "211-236-1"
+      }
+    },
+    {
+      "id": "fractional-square-37",
+      "sku": "213-120",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "1/2",
+        "shankDiameter": "5/16",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-120"
+      },
+      "variants": {
+        "twoFlute": "213-120",
+        "threeFlute": "",
+        "fourFlute": "213-720",
+        "twoFlutePowerA": "213-120-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-720-1"
+      }
+    },
+    {
+      "id": "fractional-square-38",
+      "sku": "209-238",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "5/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-238"
+      },
+      "variants": {
+        "twoFlute": "209-238",
+        "threeFlute": "210-238",
+        "fourFlute": "211-238",
+        "twoFlutePowerA": "209-238-1",
+        "threeFlutePowerA": "210-238-1",
+        "fourFlutePowerA": "211-238-1"
+      }
+    },
+    {
+      "id": "fractional-square-39",
+      "sku": "204-222",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "1-1/8",
+        "shankDiameter": "5/16",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-222"
+      },
+      "variants": {
+        "twoFlute": "204-222",
+        "threeFlute": "",
+        "fourFlute": "206-222",
+        "twoFlutePowerA": "204-222-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-222-1"
+      }
+    },
+    {
+      "id": "fractional-square-40",
+      "sku": "204-224",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "1",
+        "shankDiameter": "5/16",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-224"
+      },
+      "variants": {
+        "twoFlute": "204-224",
+        "threeFlute": "",
+        "fourFlute": "206-224",
+        "twoFlutePowerA": "204-224-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-224-1"
+      }
+    },
+    {
+      "id": "fractional-square-41",
+      "sku": "204-226",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "1-5/8",
+        "shankDiameter": "5/16",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-226"
+      },
+      "variants": {
+        "twoFlute": "204-226",
+        "threeFlute": "",
+        "fourFlute": "206-226",
+        "twoFlutePowerA": "204-226-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-226-1"
+      }
+    },
+    {
+      "id": "fractional-square-42",
+      "sku": "204-228",
+      "name": "Fractional Square End Mill - 5/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/16",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "5/16",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-228"
+      },
+      "variants": {
+        "twoFlute": "204-228",
+        "threeFlute": "",
+        "fourFlute": "206-228",
+        "twoFlutePowerA": "204-228-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-228-1"
+      }
+    },
+    {
+      "id": "fractional-square-43",
+      "sku": "209-240",
+      "name": "Fractional Square End Mill - 21/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "21/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "3/8",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-240"
+      },
+      "variants": {
+        "twoFlute": "209-240",
+        "threeFlute": "210-240",
+        "fourFlute": "211-240",
+        "twoFlutePowerA": "209-240-1",
+        "threeFlutePowerA": "210-240-1",
+        "fourFlutePowerA": "211-240-1"
+      }
+    },
+    {
+      "id": "fractional-square-44",
+      "sku": "209-242",
+      "name": "Fractional Square End Mill - 11/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "11/32",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "3/8",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-242"
+      },
+      "variants": {
+        "twoFlute": "209-242",
+        "threeFlute": "210-242",
+        "fourFlute": "211-242",
+        "twoFlutePowerA": "209-242-1",
+        "threeFlutePowerA": "210-242-1",
+        "fourFlutePowerA": "211-242-1"
+      }
+    },
+    {
+      "id": "fractional-square-45",
+      "sku": "209-244",
+      "name": "Fractional Square End Mill - 23/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "23/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "3/8",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-244"
+      },
+      "variants": {
+        "twoFlute": "209-244",
+        "threeFlute": "210-244",
+        "fourFlute": "211-244",
+        "twoFlutePowerA": "209-244-1",
+        "threeFlutePowerA": "210-244-1",
+        "fourFlutePowerA": "211-244-1"
+      }
+    },
+    {
+      "id": "fractional-square-46",
+      "sku": "213-122",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "3/8",
+        "overallLength": "2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-122"
+      },
+      "variants": {
+        "twoFlute": "213-122",
+        "threeFlute": "",
+        "fourFlute": "213-722",
+        "twoFlutePowerA": "213-122-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-722-1"
+      }
+    },
+    {
+      "id": "fractional-square-47",
+      "sku": "209-246",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "3/8",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-246"
+      },
+      "variants": {
+        "twoFlute": "209-246",
+        "threeFlute": "210-246",
+        "fourFlute": "211-246",
+        "twoFlutePowerA": "209-246-1",
+        "threeFlutePowerA": "210-246-1",
+        "fourFlutePowerA": "211-246-1"
+      }
+    },
+    {
+      "id": "fractional-square-48",
+      "sku": "204-230",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "1-1/8",
+        "shankDiameter": "3/8",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-230"
+      },
+      "variants": {
+        "twoFlute": "204-230",
+        "threeFlute": "",
+        "fourFlute": "206-230",
+        "twoFlutePowerA": "204-230-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-230-1"
+      }
+    },
+    {
+      "id": "fractional-square-49",
+      "sku": "204-232",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "1-3/4",
+        "shankDiameter": "3/8",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-232"
+      },
+      "variants": {
+        "twoFlute": "204-232",
+        "threeFlute": "",
+        "fourFlute": "206-232",
+        "twoFlutePowerA": "204-232-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-232-1"
+      }
+    },
+    {
+      "id": "fractional-square-50",
+      "sku": "204-234",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "2",
+        "shankDiameter": "3/8",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-234"
+      },
+      "variants": {
+        "twoFlute": "204-234",
+        "threeFlute": "",
+        "fourFlute": "206-234",
+        "twoFlutePowerA": "204-234-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-234-1"
+      }
+    },
+    {
+      "id": "fractional-square-51",
+      "sku": "204-236",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "3/8",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-236"
+      },
+      "variants": {
+        "twoFlute": "204-236",
+        "threeFlute": "",
+        "fourFlute": "206-236",
+        "twoFlutePowerA": "204-236-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-236-1"
+      }
+    },
+    {
+      "id": "fractional-square-52",
+      "sku": "204-238",
+      "name": "Fractional Square End Mill - 3/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/8",
+        "lengthOfCut": "3",
+        "shankDiameter": "3/8",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-238"
+      },
+      "variants": {
+        "twoFlute": "204-238",
+        "threeFlute": "",
+        "fourFlute": "206-238",
+        "twoFlutePowerA": "204-238-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-238-1"
+      }
+    },
+    {
+      "id": "fractional-square-53",
+      "sku": "209-248",
+      "name": "Fractional Square End Mill - 25/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "25/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "7/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-248"
+      },
+      "variants": {
+        "twoFlute": "209-248",
+        "threeFlute": "210-248",
+        "fourFlute": "211-248",
+        "twoFlutePowerA": "209-248-1",
+        "threeFlutePowerA": "210-248-1",
+        "fourFlutePowerA": "211-248-1"
+      }
+    },
+    {
+      "id": "fractional-square-54",
+      "sku": "209-250",
+      "name": "Fractional Square End Mill - 13/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "13/32",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "7/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-250"
+      },
+      "variants": {
+        "twoFlute": "209-250",
+        "threeFlute": "210-250",
+        "fourFlute": "211-250",
+        "twoFlutePowerA": "209-250-1",
+        "threeFlutePowerA": "210-250-1",
+        "fourFlutePowerA": "211-250-1"
+      }
+    },
+    {
+      "id": "fractional-square-55",
+      "sku": "209-252",
+      "name": "Fractional Square End Mill - 27/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 7/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "27/64",
+        "lengthOfCut": "7/8",
+        "shankDiameter": "7/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-252"
+      },
+      "variants": {
+        "twoFlute": "209-252",
+        "threeFlute": "210-252",
+        "fourFlute": "211-252",
+        "twoFlutePowerA": "209-252-1",
+        "threeFlutePowerA": "210-252-1",
+        "fourFlutePowerA": "211-252-1"
+      }
+    },
+    {
+      "id": "fractional-square-56",
+      "sku": "213-124",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "7/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-124"
+      },
+      "variants": {
+        "twoFlute": "213-124",
+        "threeFlute": "",
+        "fourFlute": "213-724",
+        "twoFlutePowerA": "213-124-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-724-1"
+      }
+    },
+    {
+      "id": "fractional-square-57",
+      "sku": "209-254",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "1",
+        "shankDiameter": "7/16",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-254"
+      },
+      "variants": {
+        "twoFlute": "209-254",
+        "threeFlute": "210-254",
+        "fourFlute": "211-254",
+        "twoFlutePowerA": "209-254-1",
+        "threeFlutePowerA": "210-254-1",
+        "fourFlutePowerA": "211-254-1"
+      }
+    },
+    {
+      "id": "fractional-square-58",
+      "sku": "204-240",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "1",
+        "shankDiameter": "7/16",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-240"
+      },
+      "variants": {
+        "twoFlute": "204-240",
+        "threeFlute": "",
+        "fourFlute": "206-240",
+        "twoFlutePowerA": "204-240-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-240-1"
+      }
+    },
+    {
+      "id": "fractional-square-59",
+      "sku": "204-242",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "2",
+        "shankDiameter": "7/16",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-242"
+      },
+      "variants": {
+        "twoFlute": "204-242",
+        "threeFlute": "",
+        "fourFlute": "206-242",
+        "twoFlutePowerA": "204-242-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-242-1"
+      }
+    },
+    {
+      "id": "fractional-square-60",
+      "sku": "204-244",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "7/16",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-244"
+      },
+      "variants": {
+        "twoFlute": "204-244",
+        "threeFlute": "",
+        "fourFlute": "206-244",
+        "twoFlutePowerA": "204-244-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-244-1"
+      }
+    },
+    {
+      "id": "fractional-square-61",
+      "sku": "204-246",
+      "name": "Fractional Square End Mill - 7/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/16",
+        "lengthOfCut": "3",
+        "shankDiameter": "7/16",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-246"
+      },
+      "variants": {
+        "twoFlute": "204-246",
+        "threeFlute": "",
+        "fourFlute": "206-246",
+        "twoFlutePowerA": "204-246-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-246-1"
+      }
+    },
+    {
+      "id": "fractional-square-62",
+      "sku": "209-256",
+      "name": "Fractional Square End Mill - 29/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "29/64",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/2",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-256"
+      },
+      "variants": {
+        "twoFlute": "209-256",
+        "threeFlute": "210-256",
+        "fourFlute": "211-256",
+        "twoFlutePowerA": "209-256-1",
+        "threeFlutePowerA": "210-256-1",
+        "fourFlutePowerA": "211-256-1"
+      }
+    },
+    {
+      "id": "fractional-square-63",
+      "sku": "209-258",
+      "name": "Fractional Square End Mill - 15/32\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "15/32",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/2",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-258"
+      },
+      "variants": {
+        "twoFlute": "209-258",
+        "threeFlute": "210-258",
+        "fourFlute": "211-258",
+        "twoFlutePowerA": "209-258-1",
+        "threeFlutePowerA": "210-258-1",
+        "fourFlutePowerA": "211-258-1"
+      }
+    },
+    {
+      "id": "fractional-square-64",
+      "sku": "209-260",
+      "name": "Fractional Square End Mill - 31/64\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "31/64",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/2",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-260"
+      },
+      "variants": {
+        "twoFlute": "209-260",
+        "threeFlute": "210-260",
+        "fourFlute": "211-260",
+        "twoFlutePowerA": "209-260-1",
+        "threeFlutePowerA": "210-260-1",
+        "fourFlutePowerA": "211-260-1"
+      }
+    },
+    {
+      "id": "fractional-square-65",
+      "sku": "213-126",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 5/8\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "5/8",
+        "shankDiameter": "1/2",
+        "overallLength": "2-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-126"
+      },
+      "variants": {
+        "twoFlute": "213-126",
+        "threeFlute": "",
+        "fourFlute": "213-726",
+        "twoFlutePowerA": "213-126-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-726-1"
+      }
+    },
+    {
+      "id": "fractional-square-66",
+      "sku": "209-262",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/2",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-262"
+      },
+      "variants": {
+        "twoFlute": "209-262",
+        "threeFlute": "210-262",
+        "fourFlute": "211-262",
+        "twoFlutePowerA": "209-262-1",
+        "threeFlutePowerA": "210-262-1",
+        "fourFlutePowerA": "211-262-1"
+      }
+    },
+    {
+      "id": "fractional-square-67",
+      "sku": "204-248",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "1",
+        "shankDiameter": "1/2",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-248"
+      },
+      "variants": {
+        "twoFlute": "204-248",
+        "threeFlute": "",
+        "fourFlute": "206-248",
+        "twoFlutePowerA": "204-248-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-248-1"
+      }
+    },
+    {
+      "id": "fractional-square-68",
+      "sku": "204-250",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "1/2",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-250"
+      },
+      "variants": {
+        "twoFlute": "204-250",
+        "threeFlute": "",
+        "fourFlute": "206-250",
+        "twoFlutePowerA": "204-250-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-250-1"
+      }
+    },
+    {
+      "id": "fractional-square-69",
+      "sku": "204-252",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "2",
+        "shankDiameter": "1/2",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-252"
+      },
+      "variants": {
+        "twoFlute": "204-252",
+        "threeFlute": "",
+        "fourFlute": "206-252",
+        "twoFlutePowerA": "204-252-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-252-1"
+      }
+    },
+    {
+      "id": "fractional-square-70",
+      "sku": "204-254",
+      "name": "Fractional Square End Mill - 1/2\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1/2",
+        "lengthOfCut": "3",
+        "shankDiameter": "1/2",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-254"
+      },
+      "variants": {
+        "twoFlute": "204-254",
+        "threeFlute": "",
+        "fourFlute": "206-254",
+        "twoFlutePowerA": "204-254-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-254-1"
+      }
+    },
+    {
+      "id": "fractional-square-71",
+      "sku": "209-264",
+      "name": "Fractional Square End Mill - 9/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "9/16",
+        "lengthOfCut": "1-1/4",
+        "shankDiameter": "9/16",
+        "overallLength": "3-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-264"
+      },
+      "variants": {
+        "twoFlute": "209-264",
+        "threeFlute": "210-264",
+        "fourFlute": "211-264",
+        "twoFlutePowerA": "209-264-1",
+        "threeFlutePowerA": "210-264-1",
+        "fourFlutePowerA": "211-264-1"
+      }
+    },
+    {
+      "id": "fractional-square-72",
+      "sku": "213-128",
+      "name": "Fractional Square End Mill - 5/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/8",
+        "lengthOfCut": "3/4",
+        "shankDiameter": "5/8",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-128"
+      },
+      "variants": {
+        "twoFlute": "213-128",
+        "threeFlute": "",
+        "fourFlute": "213-728",
+        "twoFlutePowerA": "213-128-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-728-1"
+      }
+    },
+    {
+      "id": "fractional-square-73",
+      "sku": "209-266",
+      "name": "Fractional Square End Mill - 5/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/8",
+        "lengthOfCut": "1-1/4",
+        "shankDiameter": "5/8",
+        "overallLength": "3-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-266"
+      },
+      "variants": {
+        "twoFlute": "209-266",
+        "threeFlute": "210-266",
+        "fourFlute": "211-266",
+        "twoFlutePowerA": "209-266-1",
+        "threeFlutePowerA": "210-266-1",
+        "fourFlutePowerA": "211-266-1"
+      }
+    },
+    {
+      "id": "fractional-square-74",
+      "sku": "204-256",
+      "name": "Fractional Square End Mill - 5/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2-1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/8",
+        "lengthOfCut": "2-1/4",
+        "shankDiameter": "5/8",
+        "overallLength": "5",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-256"
+      },
+      "variants": {
+        "twoFlute": "204-256",
+        "threeFlute": "",
+        "fourFlute": "206-256",
+        "twoFlutePowerA": "204-256-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-256-1"
+      }
+    },
+    {
+      "id": "fractional-square-75",
+      "sku": "204-258",
+      "name": "Fractional Square End Mill - 5/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5/8",
+        "lengthOfCut": "3",
+        "shankDiameter": "5/8",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-258"
+      },
+      "variants": {
+        "twoFlute": "204-258",
+        "threeFlute": "",
+        "fourFlute": "206-258",
+        "twoFlutePowerA": "204-258-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-258-1"
+      }
+    },
+    {
+      "id": "fractional-square-76",
+      "sku": "209-268",
+      "name": "Fractional Square End Mill - 11/16\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "11/16",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "3/4",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-268"
+      },
+      "variants": {
+        "twoFlute": "209-268",
+        "threeFlute": "210-268",
+        "fourFlute": "211-268",
+        "twoFlutePowerA": "209-268-1",
+        "threeFlutePowerA": "210-268-1",
+        "fourFlutePowerA": "211-268-1"
+      }
+    },
+    {
+      "id": "fractional-square-77",
+      "sku": "213-130",
+      "name": "Fractional Square End Mill - 3/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/4",
+        "lengthOfCut": "1",
+        "shankDiameter": "3/4",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-130"
+      },
+      "variants": {
+        "twoFlute": "213-130",
+        "threeFlute": "",
+        "fourFlute": "213-730",
+        "twoFlutePowerA": "213-130-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-730-1"
+      }
+    },
+    {
+      "id": "fractional-square-78",
+      "sku": "209-270",
+      "name": "Fractional Square End Mill - 3/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/4",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "3/4",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-270"
+      },
+      "variants": {
+        "twoFlute": "209-270",
+        "threeFlute": "210-270",
+        "fourFlute": "211-270",
+        "twoFlutePowerA": "209-270-1",
+        "threeFlutePowerA": "210-270-1",
+        "fourFlutePowerA": "211-270-1"
+      }
+    },
+    {
+      "id": "fractional-square-79",
+      "sku": "204-260",
+      "name": "Fractional Square End Mill - 3/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2-1/4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/4",
+        "lengthOfCut": "2-1/4",
+        "shankDiameter": "3/4",
+        "overallLength": "5",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-260"
+      },
+      "variants": {
+        "twoFlute": "204-260",
+        "threeFlute": "",
+        "fourFlute": "206-260",
+        "twoFlutePowerA": "204-260-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-260-1"
+      }
+    },
+    {
+      "id": "fractional-square-80",
+      "sku": "204-262",
+      "name": "Fractional Square End Mill - 3/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3/4",
+        "lengthOfCut": "3",
+        "shankDiameter": "3/4",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-262"
+      },
+      "variants": {
+        "twoFlute": "204-262",
+        "threeFlute": "",
+        "fourFlute": "206-262",
+        "twoFlutePowerA": "204-262-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-262-1"
+      }
+    },
+    {
+      "id": "fractional-square-81",
+      "sku": "209-272",
+      "name": "Fractional Square End Mill - 7/8\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7/8",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "7/8",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-272"
+      },
+      "variants": {
+        "twoFlute": "209-272",
+        "threeFlute": "210-272",
+        "fourFlute": "211-272",
+        "twoFlutePowerA": "209-272-1",
+        "threeFlutePowerA": "210-272-1",
+        "fourFlutePowerA": "211-272-1"
+      }
+    },
+    {
+      "id": "fractional-square-82",
+      "sku": "213-132",
+      "name": "Fractional Square End Mill - 1\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "1",
+        "shankDiameter": "1",
+        "overallLength": "3",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "213-132"
+      },
+      "variants": {
+        "twoFlute": "213-132",
+        "threeFlute": "",
+        "fourFlute": "213-732",
+        "twoFlutePowerA": "213-132-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "213-732-1"
+      }
+    },
+    {
+      "id": "fractional-square-83",
+      "sku": "209-274",
+      "name": "Fractional Square End Mill - 1\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 1-1/2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "1-1/2",
+        "shankDiameter": "1",
+        "overallLength": "4",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-274"
+      },
+      "variants": {
+        "twoFlute": "209-274",
+        "threeFlute": "210-274",
+        "fourFlute": "211-274",
+        "twoFlutePowerA": "209-274-1",
+        "threeFlutePowerA": "210-274-1",
+        "fourFlutePowerA": "211-274-1"
+      }
+    },
+    {
+      "id": "fractional-square-84",
+      "sku": "204-264",
+      "name": "Fractional Square End Mill - 1\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "2",
+        "shankDiameter": "1",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-264"
+      },
+      "variants": {
+        "twoFlute": "204-264",
+        "threeFlute": "",
+        "fourFlute": "206-264",
+        "twoFlutePowerA": "204-264-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-264-1"
+      }
+    },
+    {
+      "id": "fractional-square-85",
+      "sku": "204-266",
+      "name": "Fractional Square End Mill - 1\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 3\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "3",
+        "shankDiameter": "1",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-266"
+      },
+      "variants": {
+        "twoFlute": "204-266",
+        "threeFlute": "",
+        "fourFlute": "206-266",
+        "twoFlutePowerA": "204-266-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-266-1"
+      }
+    },
+    {
+      "id": "fractional-square-86",
+      "sku": "204-268",
+      "name": "Fractional Square End Mill - 1\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 4\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "4",
+        "shankDiameter": "1",
+        "overallLength": "6",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "204-268"
+      },
+      "variants": {
+        "twoFlute": "204-268",
+        "threeFlute": "",
+        "fourFlute": "206-268",
+        "twoFlutePowerA": "204-268-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "206-268-1"
+      }
+    },
+    {
+      "id": "fractional-square-87",
+      "sku": "209-276",
+      "name": "Fractional Square End Mill - 1-1/4\"",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "fractional-square",
+      "description": "Fractional square end mill with 2\" length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1-1/4",
+        "lengthOfCut": "2",
+        "shankDiameter": "1-1/4",
+        "overallLength": "4-1/2",
+        "dimensionType": "fractional",
+        "coating": "Uncoated",
+        "partNumber": "209-276"
+      },
+      "variants": {
+        "twoFlute": "209-276",
+        "threeFlute": "210-276",
+        "fourFlute": "211-276",
+        "twoFlutePowerA": "209-276-1",
+        "threeFlutePowerA": "210-276-1",
+        "fourFlutePowerA": "211-276-1"
+      }
+    }
+  ],
+  "metric": [
+    {
+      "id": "metric-square-0",
+      "sku": "313-102",
+      "name": "Metric Square End Mill - 1mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 2mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "2",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-102"
+      },
+      "variants": {
+        "twoFlute": "313-102",
+        "threeFlute": "",
+        "fourFlute": "313-702",
+        "twoFlutePowerA": "313-102-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-702-1"
+      }
+    },
+    {
+      "id": "metric-square-1",
+      "sku": "309-202",
+      "name": "Metric Square End Mill - 1mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 3mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1",
+        "lengthOfCut": "3",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-202"
+      },
+      "variants": {
+        "twoFlute": "309-202",
+        "threeFlute": "310-202",
+        "fourFlute": "311-202",
+        "twoFlutePowerA": "309-202-1",
+        "threeFlutePowerA": "310-202-1",
+        "fourFlutePowerA": "311-202-1"
+      }
+    },
+    {
+      "id": "metric-square-2",
+      "sku": "313-104",
+      "name": "Metric Square End Mill - 1.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 3mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1.5",
+        "lengthOfCut": "3",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-104"
+      },
+      "variants": {
+        "twoFlute": "313-104",
+        "threeFlute": "",
+        "fourFlute": "313-704",
+        "twoFlutePowerA": "313-104-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-704-1"
+      }
+    },
+    {
+      "id": "metric-square-3",
+      "sku": "309-204",
+      "name": "Metric Square End Mill - 1.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 5mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "1.5",
+        "lengthOfCut": "5",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-204"
+      },
+      "variants": {
+        "twoFlute": "309-204",
+        "threeFlute": "310-204",
+        "fourFlute": "311-204",
+        "twoFlutePowerA": "309-204-1",
+        "threeFlutePowerA": "310-204-1",
+        "fourFlutePowerA": "311-204-1"
+      }
+    },
+    {
+      "id": "metric-square-4",
+      "sku": "313-106",
+      "name": "Metric Square End Mill - 2mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 4mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "2",
+        "lengthOfCut": "4",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-106"
+      },
+      "variants": {
+        "twoFlute": "313-106",
+        "threeFlute": "",
+        "fourFlute": "313-706",
+        "twoFlutePowerA": "313-106-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-706-1"
+      }
+    },
+    {
+      "id": "metric-square-5",
+      "sku": "309-206",
+      "name": "Metric Square End Mill - 2mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 6mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "2",
+        "lengthOfCut": "6",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-206"
+      },
+      "variants": {
+        "twoFlute": "309-206",
+        "threeFlute": "310-206",
+        "fourFlute": "311-206",
+        "twoFlutePowerA": "309-206-1",
+        "threeFlutePowerA": "310-206-1",
+        "fourFlutePowerA": "311-206-1"
+      }
+    },
+    {
+      "id": "metric-square-6",
+      "sku": "313-108",
+      "name": "Metric Square End Mill - 2.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 5mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "2.5",
+        "lengthOfCut": "5",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-108"
+      },
+      "variants": {
+        "twoFlute": "313-108",
+        "threeFlute": "",
+        "fourFlute": "313-708",
+        "twoFlutePowerA": "313-108-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-708-1"
+      }
+    },
+    {
+      "id": "metric-square-7",
+      "sku": "309-208",
+      "name": "Metric Square End Mill - 2.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 7mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "2.5",
+        "lengthOfCut": "7",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-208"
+      },
+      "variants": {
+        "twoFlute": "309-208",
+        "threeFlute": "310-208",
+        "fourFlute": "311-208",
+        "twoFlutePowerA": "309-208-1",
+        "threeFlutePowerA": "310-208-1",
+        "fourFlutePowerA": "311-208-1"
+      }
+    },
+    {
+      "id": "metric-square-8",
+      "sku": "313-110",
+      "name": "Metric Square End Mill - 3mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 6mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3",
+        "lengthOfCut": "6",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-110"
+      },
+      "variants": {
+        "twoFlute": "313-110",
+        "threeFlute": "",
+        "fourFlute": "313-710",
+        "twoFlutePowerA": "313-110-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-710-1"
+      }
+    },
+    {
+      "id": "metric-square-9",
+      "sku": "309-210",
+      "name": "Metric Square End Mill - 3mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 12mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3",
+        "lengthOfCut": "12",
+        "shankDiameter": "3",
+        "overallLength": "38",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-210"
+      },
+      "variants": {
+        "twoFlute": "309-210",
+        "threeFlute": "310-210",
+        "fourFlute": "311-210",
+        "twoFlutePowerA": "309-210-1",
+        "threeFlutePowerA": "310-210-1",
+        "fourFlutePowerA": "311-210-1"
+      }
+    },
+    {
+      "id": "metric-square-10",
+      "sku": "304-202",
+      "name": "Metric Square End Mill - 3mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3",
+        "lengthOfCut": "25",
+        "shankDiameter": "3",
+        "overallLength": "65",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-202"
+      },
+      "variants": {
+        "twoFlute": "304-202",
+        "threeFlute": "",
+        "fourFlute": "306-202",
+        "twoFlutePowerA": "304-202-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-202-1"
+      }
+    },
+    {
+      "id": "metric-square-11",
+      "sku": "313-112",
+      "name": "Metric Square End Mill - 3.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 7mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3.5",
+        "lengthOfCut": "7",
+        "shankDiameter": "4",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-112"
+      },
+      "variants": {
+        "twoFlute": "313-112",
+        "threeFlute": "",
+        "fourFlute": "313-712",
+        "twoFlutePowerA": "313-112-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-712-1"
+      }
+    },
+    {
+      "id": "metric-square-12",
+      "sku": "309-212",
+      "name": "Metric Square End Mill - 3.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 12mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "3.5",
+        "lengthOfCut": "12",
+        "shankDiameter": "4",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-212"
+      },
+      "variants": {
+        "twoFlute": "309-212",
+        "threeFlute": "310-212",
+        "fourFlute": "311-212",
+        "twoFlutePowerA": "309-212-1",
+        "threeFlutePowerA": "310-212-1",
+        "fourFlutePowerA": "311-212-1"
+      }
+    },
+    {
+      "id": "metric-square-13",
+      "sku": "313-114",
+      "name": "Metric Square End Mill - 4mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 8mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "4",
+        "lengthOfCut": "8",
+        "shankDiameter": "4",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-114"
+      },
+      "variants": {
+        "twoFlute": "313-114",
+        "threeFlute": "",
+        "fourFlute": "313-714",
+        "twoFlutePowerA": "313-114-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-714-1"
+      }
+    },
+    {
+      "id": "metric-square-14",
+      "sku": "309-214",
+      "name": "Metric Square End Mill - 4mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 14mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "4",
+        "lengthOfCut": "14",
+        "shankDiameter": "4",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-214"
+      },
+      "variants": {
+        "twoFlute": "309-214",
+        "threeFlute": "310-214",
+        "fourFlute": "311-214",
+        "twoFlutePowerA": "309-214-1",
+        "threeFlutePowerA": "310-214-1",
+        "fourFlutePowerA": "311-214-1"
+      }
+    },
+    {
+      "id": "metric-square-15",
+      "sku": "304-204",
+      "name": "Metric Square End Mill - 4mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "4",
+        "lengthOfCut": "25",
+        "shankDiameter": "4",
+        "overallLength": "65",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-204"
+      },
+      "variants": {
+        "twoFlute": "304-204",
+        "threeFlute": "",
+        "fourFlute": "306-204",
+        "twoFlutePowerA": "304-204-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-204-1"
+      }
+    },
+    {
+      "id": "metric-square-16",
+      "sku": "313-116",
+      "name": "Metric Square End Mill - 4.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 9mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "4.5",
+        "lengthOfCut": "9",
+        "shankDiameter": "5",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-116"
+      },
+      "variants": {
+        "twoFlute": "313-116",
+        "threeFlute": "",
+        "fourFlute": "313-716",
+        "twoFlutePowerA": "313-116-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-716-1"
+      }
+    },
+    {
+      "id": "metric-square-17",
+      "sku": "309-216",
+      "name": "Metric Square End Mill - 4.5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 14mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "4.5",
+        "lengthOfCut": "14",
+        "shankDiameter": "5",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-216"
+      },
+      "variants": {
+        "twoFlute": "309-216",
+        "threeFlute": "310-216",
+        "fourFlute": "311-216",
+        "twoFlutePowerA": "309-216-1",
+        "threeFlutePowerA": "310-216-1",
+        "fourFlutePowerA": "311-216-1"
+      }
+    },
+    {
+      "id": "metric-square-18",
+      "sku": "313-118",
+      "name": "Metric Square End Mill - 5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 10mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5",
+        "lengthOfCut": "10",
+        "shankDiameter": "5",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-118"
+      },
+      "variants": {
+        "twoFlute": "313-118",
+        "threeFlute": "",
+        "fourFlute": "313-718",
+        "twoFlutePowerA": "313-118-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-718-1"
+      }
+    },
+    {
+      "id": "metric-square-19",
+      "sku": "309-218",
+      "name": "Metric Square End Mill - 5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 16mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5",
+        "lengthOfCut": "16",
+        "shankDiameter": "5",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-218"
+      },
+      "variants": {
+        "twoFlute": "309-218",
+        "threeFlute": "310-218",
+        "fourFlute": "311-218",
+        "twoFlutePowerA": "309-218-1",
+        "threeFlutePowerA": "310-218-1",
+        "fourFlutePowerA": "311-218-1"
+      }
+    },
+    {
+      "id": "metric-square-20",
+      "sku": "304-206",
+      "name": "Metric Square End Mill - 5mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "5",
+        "lengthOfCut": "25",
+        "shankDiameter": "5",
+        "overallLength": "75",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-206"
+      },
+      "variants": {
+        "twoFlute": "304-206",
+        "threeFlute": "",
+        "fourFlute": "306-206",
+        "twoFlutePowerA": "304-206-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-206-1"
+      }
+    },
+    {
+      "id": "metric-square-21",
+      "sku": "313-120",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 12mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "12",
+        "shankDiameter": "6",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-120"
+      },
+      "variants": {
+        "twoFlute": "313-120",
+        "threeFlute": "",
+        "fourFlute": "313-720",
+        "twoFlutePowerA": "313-120-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-720-1"
+      }
+    },
+    {
+      "id": "metric-square-22",
+      "sku": "309-220",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 19mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "19",
+        "shankDiameter": "6",
+        "overallLength": "63",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-220"
+      },
+      "variants": {
+        "twoFlute": "309-220",
+        "threeFlute": "310-220",
+        "fourFlute": "311-220",
+        "twoFlutePowerA": "309-220-1",
+        "threeFlutePowerA": "310-220-1",
+        "fourFlutePowerA": "311-220-1"
+      }
+    },
+    {
+      "id": "metric-square-23",
+      "sku": "304-208",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "25",
+        "shankDiameter": "6",
+        "overallLength": "75",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-208"
+      },
+      "variants": {
+        "twoFlute": "304-208",
+        "threeFlute": "",
+        "fourFlute": "306-208",
+        "twoFlutePowerA": "304-208-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-208-1"
+      }
+    },
+    {
+      "id": "metric-square-24",
+      "sku": "315-202",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "38",
+        "shankDiameter": "6",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-202"
+      },
+      "variants": {
+        "twoFlute": "315-202",
+        "threeFlute": "",
+        "fourFlute": "317-202",
+        "twoFlutePowerA": "315-202-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-202-1"
+      }
+    },
+    {
+      "id": "metric-square-25",
+      "sku": "315-204",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "6",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-204"
+      },
+      "variants": {
+        "twoFlute": "315-204",
+        "threeFlute": "",
+        "fourFlute": "317-204",
+        "twoFlutePowerA": "315-204-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-204-1"
+      }
+    },
+    {
+      "id": "metric-square-26",
+      "sku": "315-206",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "6",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-206"
+      },
+      "variants": {
+        "twoFlute": "315-206",
+        "threeFlute": "",
+        "fourFlute": "317-206",
+        "twoFlutePowerA": "315-206-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-206-1"
+      }
+    },
+    {
+      "id": "metric-square-27",
+      "sku": "315-208",
+      "name": "Metric Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-208"
+      },
+      "variants": {
+        "twoFlute": "315-208",
+        "threeFlute": "",
+        "fourFlute": "317-208",
+        "twoFlutePowerA": "315-208-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-208-1"
+      }
+    },
+    {
+      "id": "metric-square-28",
+      "sku": "309-222",
+      "name": "Metric Square End Mill - 7mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 19mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "7",
+        "lengthOfCut": "19",
+        "shankDiameter": "8",
+        "overallLength": "63",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-222"
+      },
+      "variants": {
+        "twoFlute": "309-222",
+        "threeFlute": "310-222",
+        "fourFlute": "311-222",
+        "twoFlutePowerA": "309-222-1",
+        "threeFlutePowerA": "310-222-1",
+        "fourFlutePowerA": "311-222-1"
+      }
+    },
+    {
+      "id": "metric-square-29",
+      "sku": "313-122",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 12mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "12",
+        "shankDiameter": "8",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-122"
+      },
+      "variants": {
+        "twoFlute": "313-122",
+        "threeFlute": "",
+        "fourFlute": "313-722",
+        "twoFlutePowerA": "313-122-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-722-1"
+      }
+    },
+    {
+      "id": "metric-square-30",
+      "sku": "309-224",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 19mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "19",
+        "shankDiameter": "8",
+        "overallLength": "63",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-224"
+      },
+      "variants": {
+        "twoFlute": "309-224",
+        "threeFlute": "310-224",
+        "fourFlute": "311-224",
+        "twoFlutePowerA": "309-224-1",
+        "threeFlutePowerA": "310-224-1",
+        "fourFlutePowerA": "311-224-1"
+      }
+    },
+    {
+      "id": "metric-square-31",
+      "sku": "304-210",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "25",
+        "shankDiameter": "8",
+        "overallLength": "75",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-210"
+      },
+      "variants": {
+        "twoFlute": "304-210",
+        "threeFlute": "",
+        "fourFlute": "306-210",
+        "twoFlutePowerA": "304-210-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-210-1"
+      }
+    },
+    {
+      "id": "metric-square-32",
+      "sku": "315-210",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 42mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "42",
+        "shankDiameter": "8",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-210"
+      },
+      "variants": {
+        "twoFlute": "315-210",
+        "threeFlute": "",
+        "fourFlute": "317-210",
+        "twoFlutePowerA": "315-210-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-210-1"
+      }
+    },
+    {
+      "id": "metric-square-33",
+      "sku": "315-212",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-212"
+      },
+      "variants": {
+        "twoFlute": "315-212",
+        "threeFlute": "",
+        "fourFlute": "317-212",
+        "twoFlutePowerA": "315-212-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-212-1"
+      }
+    },
+    {
+      "id": "metric-square-34",
+      "sku": "315-214",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-214"
+      },
+      "variants": {
+        "twoFlute": "315-214",
+        "threeFlute": "",
+        "fourFlute": "317-214",
+        "twoFlutePowerA": "315-214-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-214-1"
+      }
+    },
+    {
+      "id": "metric-square-35",
+      "sku": "315-216",
+      "name": "Metric Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-216"
+      },
+      "variants": {
+        "twoFlute": "315-216",
+        "threeFlute": "",
+        "fourFlute": "317-216",
+        "twoFlutePowerA": "315-216-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-216-1"
+      }
+    },
+    {
+      "id": "metric-square-36",
+      "sku": "309-226",
+      "name": "Metric Square End Mill - 9mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 22mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "9",
+        "lengthOfCut": "22",
+        "shankDiameter": "10",
+        "overallLength": "70",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-226"
+      },
+      "variants": {
+        "twoFlute": "309-226",
+        "threeFlute": "310-226",
+        "fourFlute": "311-226",
+        "twoFlutePowerA": "309-226-1",
+        "threeFlutePowerA": "310-226-1",
+        "fourFlutePowerA": "311-226-1"
+      }
+    },
+    {
+      "id": "metric-square-37",
+      "sku": "313-124",
+      "name": "Metric Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 14mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "14",
+        "shankDiameter": "10",
+        "overallLength": "50",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-124"
+      },
+      "variants": {
+        "twoFlute": "313-124",
+        "threeFlute": "",
+        "fourFlute": "313-724",
+        "twoFlutePowerA": "313-124-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-724-1"
+      }
+    },
+    {
+      "id": "metric-square-38",
+      "sku": "309-228",
+      "name": "Metric Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 22mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "22",
+        "shankDiameter": "10",
+        "overallLength": "70",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-228"
+      },
+      "variants": {
+        "twoFlute": "309-228",
+        "threeFlute": "310-228",
+        "fourFlute": "311-228",
+        "twoFlutePowerA": "309-228-1",
+        "threeFlutePowerA": "310-228-1",
+        "fourFlutePowerA": "311-228-1"
+      }
+    },
+    {
+      "id": "metric-square-39",
+      "sku": "304-212",
+      "name": "Metric Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "38",
+        "shankDiameter": "10",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-212"
+      },
+      "variants": {
+        "twoFlute": "304-212",
+        "threeFlute": "",
+        "fourFlute": "306-212",
+        "twoFlutePowerA": "304-212-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-212-1"
+      }
+    },
+    {
+      "id": "metric-square-40",
+      "sku": "315-218",
+      "name": "Metric Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-218"
+      },
+      "variants": {
+        "twoFlute": "315-218",
+        "threeFlute": "",
+        "fourFlute": "317-218",
+        "twoFlutePowerA": "315-218-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-218-1"
+      }
+    },
+    {
+      "id": "metric-square-41",
+      "sku": "315-220",
+      "name": "Metric Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-220"
+      },
+      "variants": {
+        "twoFlute": "315-220",
+        "threeFlute": "",
+        "fourFlute": "317-220",
+        "twoFlutePowerA": "315-220-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-220-1"
+      }
+    },
+    {
+      "id": "metric-square-42",
+      "sku": "309-230",
+      "name": "Metric Square End Mill - 11mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "11",
+        "lengthOfCut": "25",
+        "shankDiameter": "11",
+        "overallLength": "70",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-230"
+      },
+      "variants": {
+        "twoFlute": "309-230",
+        "threeFlute": "310-230",
+        "fourFlute": "311-230",
+        "twoFlutePowerA": "309-230-1",
+        "threeFlutePowerA": "310-230-1",
+        "fourFlutePowerA": "311-230-1"
+      }
+    },
+    {
+      "id": "metric-square-43",
+      "sku": "313-126",
+      "name": "Metric Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 16mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "16",
+        "shankDiameter": "12",
+        "overallLength": "63",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-126"
+      },
+      "variants": {
+        "twoFlute": "313-126",
+        "threeFlute": "",
+        "fourFlute": "313-726",
+        "twoFlutePowerA": "313-126-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-726-1"
+      }
+    },
+    {
+      "id": "metric-square-44",
+      "sku": "309-232",
+      "name": "Metric Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 25mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "25",
+        "shankDiameter": "12",
+        "overallLength": "75",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-232"
+      },
+      "variants": {
+        "twoFlute": "309-232",
+        "threeFlute": "310-232",
+        "fourFlute": "311-232",
+        "twoFlutePowerA": "309-232-1",
+        "threeFlutePowerA": "310-232-1",
+        "fourFlutePowerA": "311-232-1"
+      }
+    },
+    {
+      "id": "metric-square-45",
+      "sku": "304-214",
+      "name": "Metric Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 50mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "50",
+        "shankDiameter": "12",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-214"
+      },
+      "variants": {
+        "twoFlute": "304-214",
+        "threeFlute": "",
+        "fourFlute": "306-214",
+        "twoFlutePowerA": "304-214-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-214-1"
+      }
+    },
+    {
+      "id": "metric-square-46",
+      "sku": "315-222",
+      "name": "Metric Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "75",
+        "shankDiameter": "12",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-222"
+      },
+      "variants": {
+        "twoFlute": "315-222",
+        "threeFlute": "",
+        "fourFlute": "317-222",
+        "twoFlutePowerA": "315-222-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-222-1"
+      }
+    },
+    {
+      "id": "metric-square-47",
+      "sku": "315-224",
+      "name": "Metric Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "75",
+        "shankDiameter": "12",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-224"
+      },
+      "variants": {
+        "twoFlute": "315-224",
+        "threeFlute": "",
+        "fourFlute": "317-224",
+        "twoFlutePowerA": "315-224-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-224-1"
+      }
+    },
+    {
+      "id": "metric-square-48",
+      "sku": "309-234",
+      "name": "Metric Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 30mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "30",
+        "shankDiameter": "14",
+        "overallLength": "88",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-234"
+      },
+      "variants": {
+        "twoFlute": "309-234",
+        "threeFlute": "310-234",
+        "fourFlute": "311-234",
+        "twoFlutePowerA": "309-234-1",
+        "threeFlutePowerA": "310-234-1",
+        "fourFlutePowerA": "311-234-1"
+      }
+    },
+    {
+      "id": "metric-square-49",
+      "sku": "304-216",
+      "name": "Metric Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 56mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "56",
+        "shankDiameter": "14",
+        "overallLength": "125",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-216"
+      },
+      "variants": {
+        "twoFlute": "304-216",
+        "threeFlute": "",
+        "fourFlute": "306-216",
+        "twoFlutePowerA": "304-216-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-216-1"
+      }
+    },
+    {
+      "id": "metric-square-50",
+      "sku": "315-226",
+      "name": "Metric Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 62mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "62",
+        "shankDiameter": "14",
+        "overallLength": "125",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-226"
+      },
+      "variants": {
+        "twoFlute": "315-226",
+        "threeFlute": "",
+        "fourFlute": "317-226",
+        "twoFlutePowerA": "315-226-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-226-1"
+      }
+    },
+    {
+      "id": "metric-square-51",
+      "sku": "315-228",
+      "name": "Metric Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "75",
+        "shankDiameter": "14",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-228"
+      },
+      "variants": {
+        "twoFlute": "315-228",
+        "threeFlute": "",
+        "fourFlute": "317-228",
+        "twoFlutePowerA": "315-228-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-228-1"
+      }
+    },
+    {
+      "id": "metric-square-52",
+      "sku": "315-230",
+      "name": "Metric Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "75",
+        "shankDiameter": "16",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-230"
+      },
+      "variants": {
+        "twoFlute": "315-230",
+        "threeFlute": "",
+        "fourFlute": "317-230",
+        "twoFlutePowerA": "315-230-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-230-1"
+      }
+    },
+    {
+      "id": "metric-square-53",
+      "sku": "313-128",
+      "name": "Metric Square End Mill - 16mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 20mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "16",
+        "lengthOfCut": "20",
+        "shankDiameter": "16",
+        "overallLength": "75",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "313-128"
+      },
+      "variants": {
+        "twoFlute": "313-128",
+        "threeFlute": "",
+        "fourFlute": "313-728",
+        "twoFlutePowerA": "313-128-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "313-728-1"
+      }
+    },
+    {
+      "id": "metric-square-54",
+      "sku": "309-236",
+      "name": "Metric Square End Mill - 16mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 32mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "16",
+        "lengthOfCut": "32",
+        "shankDiameter": "16",
+        "overallLength": "88",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-236"
+      },
+      "variants": {
+        "twoFlute": "309-236",
+        "threeFlute": "310-236",
+        "fourFlute": "311-236",
+        "twoFlutePowerA": "309-236-1",
+        "threeFlutePowerA": "310-236-1",
+        "fourFlutePowerA": "311-236-1"
+      }
+    },
+    {
+      "id": "metric-square-55",
+      "sku": "304-218",
+      "name": "Metric Square End Mill - 16mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "16",
+        "lengthOfCut": "75",
+        "shankDiameter": "16",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-218"
+      },
+      "variants": {
+        "twoFlute": "304-218",
+        "threeFlute": "",
+        "fourFlute": "306-218",
+        "twoFlutePowerA": "304-218-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-218-1"
+      }
+    },
+    {
+      "id": "metric-square-56",
+      "sku": "315-232",
+      "name": "Metric Square End Mill - 16mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "16",
+        "lengthOfCut": "75",
+        "shankDiameter": "16",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-232"
+      },
+      "variants": {
+        "twoFlute": "315-232",
+        "threeFlute": "",
+        "fourFlute": "317-232",
+        "twoFlutePowerA": "315-232-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-232-1"
+      }
+    },
+    {
+      "id": "metric-square-57",
+      "sku": "309-238",
+      "name": "Metric Square End Mill - 18mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 36mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "18",
+        "lengthOfCut": "36",
+        "shankDiameter": "18",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-238"
+      },
+      "variants": {
+        "twoFlute": "309-238",
+        "threeFlute": "310-238",
+        "fourFlute": "311-238",
+        "twoFlutePowerA": "309-238-1",
+        "threeFlutePowerA": "310-238-1",
+        "fourFlutePowerA": "311-238-1"
+      }
+    },
+    {
+      "id": "metric-square-58",
+      "sku": "304-220",
+      "name": "Metric Square End Mill - 18mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "18",
+        "lengthOfCut": "75",
+        "shankDiameter": "18",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-220"
+      },
+      "variants": {
+        "twoFlute": "304-220",
+        "threeFlute": "",
+        "fourFlute": "306-220",
+        "twoFlutePowerA": "304-220-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-220-1"
+      }
+    },
+    {
+      "id": "metric-square-59",
+      "sku": "315-234",
+      "name": "Metric Square End Mill - 18mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "18",
+        "lengthOfCut": "75",
+        "shankDiameter": "18",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-234"
+      },
+      "variants": {
+        "twoFlute": "315-234",
+        "threeFlute": "",
+        "fourFlute": "317-234",
+        "twoFlutePowerA": "315-234-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-234-1"
+      }
+    },
+    {
+      "id": "metric-square-60",
+      "sku": "309-240",
+      "name": "Metric Square End Mill - 20mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "20",
+        "lengthOfCut": "38",
+        "shankDiameter": "20",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-240"
+      },
+      "variants": {
+        "twoFlute": "309-240",
+        "threeFlute": "310-240",
+        "fourFlute": "311-240",
+        "twoFlutePowerA": "309-240-1",
+        "threeFlutePowerA": "310-240-1",
+        "fourFlutePowerA": "311-240-1"
+      }
+    },
+    {
+      "id": "metric-square-61",
+      "sku": "304-222",
+      "name": "Metric Square End Mill - 20mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "20",
+        "lengthOfCut": "75",
+        "shankDiameter": "20",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-222"
+      },
+      "variants": {
+        "twoFlute": "304-222",
+        "threeFlute": "",
+        "fourFlute": "306-222",
+        "twoFlutePowerA": "304-222-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-222-1"
+      }
+    },
+    {
+      "id": "metric-square-62",
+      "sku": "315-236",
+      "name": "Metric Square End Mill - 20mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "20",
+        "lengthOfCut": "75",
+        "shankDiameter": "20",
+        "overallLength": "200",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "315-236"
+      },
+      "variants": {
+        "twoFlute": "315-236",
+        "threeFlute": "",
+        "fourFlute": "317-236",
+        "twoFlutePowerA": "315-236-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "317-236-1"
+      }
+    },
+    {
+      "id": "metric-square-63",
+      "sku": "309-242",
+      "name": "Metric Square End Mill - 22mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "22",
+        "lengthOfCut": "38",
+        "shankDiameter": "22",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-242"
+      },
+      "variants": {
+        "twoFlute": "309-242",
+        "threeFlute": "310-242",
+        "fourFlute": "311-242",
+        "twoFlutePowerA": "309-242-1",
+        "threeFlutePowerA": "310-242-1",
+        "fourFlutePowerA": "311-242-1"
+      }
+    },
+    {
+      "id": "metric-square-64",
+      "sku": "309-244",
+      "name": "Metric Square End Mill - 25mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "25",
+        "lengthOfCut": "38",
+        "shankDiameter": "25",
+        "overallLength": "100",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "309-244"
+      },
+      "variants": {
+        "twoFlute": "309-244",
+        "threeFlute": "310-244",
+        "fourFlute": "311-244",
+        "twoFlutePowerA": "309-244-1",
+        "threeFlutePowerA": "310-244-1",
+        "fourFlutePowerA": "311-244-1"
+      }
+    },
+    {
+      "id": "metric-square-65",
+      "sku": "304-224",
+      "name": "Metric Square End Mill - 25mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "metric-square",
+      "description": "Metric square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "25",
+        "lengthOfCut": "75",
+        "shankDiameter": "25",
+        "overallLength": "150",
+        "dimensionType": "metric",
+        "coating": "Uncoated",
+        "partNumber": "304-224"
+      },
+      "variants": {
+        "twoFlute": "304-224",
+        "threeFlute": "",
+        "fourFlute": "306-224",
+        "twoFlutePowerA": "304-224-1",
+        "threeFlutePowerA": "",
+        "fourFlutePowerA": "306-224-1"
+      }
+    }
+  ],
+  "extraLong": [
+    {
+      "id": "extra-long-square-0",
+      "sku": "315-202",
+      "name": "Extra Long Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 38mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "38",
+        "shankDiameter": "6",
+        "overallLength": "100",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-202"
+      },
+      "variants": {
+        "uncoated": "315-202",
+        "powerA": "315-202-1"
+      }
+    },
+    {
+      "id": "extra-long-square-1",
+      "sku": "315-204",
+      "name": "Extra Long Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "6",
+        "overallLength": "150",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-204"
+      },
+      "variants": {
+        "uncoated": "315-204",
+        "powerA": "315-204-1"
+      }
+    },
+    {
+      "id": "extra-long-square-2",
+      "sku": "315-206",
+      "name": "Extra Long Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "6",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-206"
+      },
+      "variants": {
+        "uncoated": "315-206",
+        "powerA": "315-206-1"
+      }
+    },
+    {
+      "id": "extra-long-square-3",
+      "sku": "315-208",
+      "name": "Extra Long Square End Mill - 6mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "6",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-208"
+      },
+      "variants": {
+        "uncoated": "315-208",
+        "powerA": "315-208-1"
+      }
+    },
+    {
+      "id": "extra-long-square-4",
+      "sku": "315-210",
+      "name": "Extra Long Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 42mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "42",
+        "shankDiameter": "8",
+        "overallLength": "100",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-210"
+      },
+      "variants": {
+        "uncoated": "315-210",
+        "powerA": "315-210-1"
+      }
+    },
+    {
+      "id": "extra-long-square-5",
+      "sku": "315-212",
+      "name": "Extra Long Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "150",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-212"
+      },
+      "variants": {
+        "uncoated": "315-212",
+        "powerA": "315-212-1"
+      }
+    },
+    {
+      "id": "extra-long-square-6",
+      "sku": "315-214",
+      "name": "Extra Long Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "8",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-214"
+      },
+      "variants": {
+        "uncoated": "315-214",
+        "powerA": "315-214-1"
+      }
+    },
+    {
+      "id": "extra-long-square-7",
+      "sku": "315-216",
+      "name": "Extra Long Square End Mill - 8mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "8",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-216"
+      },
+      "variants": {
+        "uncoated": "315-216",
+        "powerA": "315-216-1"
+      }
+    },
+    {
+      "id": "extra-long-square-8",
+      "sku": "315-218",
+      "name": "Extra Long Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "150",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-218"
+      },
+      "variants": {
+        "uncoated": "315-218",
+        "powerA": "315-218-1"
+      }
+    },
+    {
+      "id": "extra-long-square-9",
+      "sku": "315-220",
+      "name": "Extra Long Square End Mill - 10mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "10",
+        "lengthOfCut": "75",
+        "shankDiameter": "10",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-220"
+      },
+      "variants": {
+        "uncoated": "315-220",
+        "powerA": "315-220-1"
+      }
+    },
+    {
+      "id": "extra-long-square-10",
+      "sku": "315-222",
+      "name": "Extra Long Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "75",
+        "shankDiameter": "12",
+        "overallLength": "150",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-222"
+      },
+      "variants": {
+        "uncoated": "315-222",
+        "powerA": "315-222-1"
+      }
+    },
+    {
+      "id": "extra-long-square-11",
+      "sku": "315-224",
+      "name": "Extra Long Square End Mill - 12mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "12",
+        "lengthOfCut": "75",
+        "shankDiameter": "12",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-224"
+      },
+      "variants": {
+        "uncoated": "315-224",
+        "powerA": "315-224-1"
+      }
+    },
+    {
+      "id": "extra-long-square-12",
+      "sku": "315-226",
+      "name": "Extra Long Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 62mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "62",
+        "shankDiameter": "14",
+        "overallLength": "125",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-226"
+      },
+      "variants": {
+        "uncoated": "315-226",
+        "powerA": "315-226-1"
+      }
+    },
+    {
+      "id": "extra-long-square-13",
+      "sku": "315-228",
+      "name": "Extra Long Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "75",
+        "shankDiameter": "14",
+        "overallLength": "150",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-228"
+      },
+      "variants": {
+        "uncoated": "315-228",
+        "powerA": "315-228-1"
+      }
+    },
+    {
+      "id": "extra-long-square-14",
+      "sku": "315-230",
+      "name": "Extra Long Square End Mill - 14mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "14",
+        "lengthOfCut": "75",
+        "shankDiameter": "16",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-230"
+      },
+      "variants": {
+        "uncoated": "315-230",
+        "powerA": "315-230-1"
+      }
+    },
+    {
+      "id": "extra-long-square-15",
+      "sku": "315-232",
+      "name": "Extra Long Square End Mill - 16mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "16",
+        "lengthOfCut": "75",
+        "shankDiameter": "16",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-232"
+      },
+      "variants": {
+        "uncoated": "315-232",
+        "powerA": "315-232-1"
+      }
+    },
+    {
+      "id": "extra-long-square-16",
+      "sku": "315-234",
+      "name": "Extra Long Square End Mill - 18mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "18",
+        "lengthOfCut": "75",
+        "shankDiameter": "18",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-234"
+      },
+      "variants": {
+        "uncoated": "315-234",
+        "powerA": "315-234-1"
+      }
+    },
+    {
+      "id": "extra-long-square-17",
+      "sku": "315-236",
+      "name": "Extra Long Square End Mill - 20mm",
+      "category": "standard-endmills",
+      "subcategory": "square-endmills",
+      "subType": "extra-long-square",
+      "description": "Extra long square end mill with 75mm length of cut",
+      "image": "/src/components/images/products/endmill.png",
+      "specifications": {
+        "diameter": "20",
+        "lengthOfCut": "75",
+        "shankDiameter": "20",
+        "overallLength": "200",
+        "dimensionType": "extra-long",
+        "coating": "Uncoated",
+        "partNumber": "315-236"
+      },
+      "variants": {
+        "uncoated": "315-236",
+        "powerA": "315-236-1"
+      }
+    }
+  ]
+}

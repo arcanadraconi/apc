@@ -1,11 +1,14 @@
 export interface ProductSpecification {
+  partNumber: string;
   diameter: string;
   lengthOfCut: string;
   shankDiameter: string;
   overallLength: string;
+}
+
+export interface Specification extends ProductSpecification {
   flutes?: number;
   coating?: string;
-  partNumber: string;
 }
 
 export interface ProductVariants {
@@ -27,8 +30,18 @@ export interface Product {
   subcategory: string;
   description: string;
   image: string;
-  specifications: ProductSpecification;
+  specifications: Specification;
   variants: ProductVariants;
+}
+
+export type DimensionType = 'metric' | 'fractional' | 'extra-long';
+
+export interface SubType {
+  id: string;
+  name: string;
+  description: string;
+  dimensionType: DimensionType;
+  specifications: string[];
 }
 
 export interface Subcategory {
@@ -36,8 +49,9 @@ export interface Subcategory {
   name: string;
   description: string;
   categoryId: string;
-  dimensionType: 'metric' | 'fractional';
   specifications: string[];
+  subTypes?: SubType[];
+  image?: string;
 }
 
 export interface Category {
@@ -47,55 +61,4 @@ export interface Category {
   image: string;
   background: string;
   subcategories: Subcategory[];
-}
-
-export interface QuoteItem {
-  product: Product;
-  quantity: number;
-  notes?: string;
-}
-
-export interface Quote {
-  id: string;
-  items: QuoteItem[];
-  status: 'draft' | 'submitted' | 'approved' | 'rejected';
-  createdAt: Date;
-  updatedAt: Date;
-  customerNotes?: string;
-}
-
-// Helper types for CSV parsing
-export interface MetricCSVRow {
-  OD: string;
-  LOC: string;
-  SHK: string;
-  OAL: string;
-  "2Flute": string;
-  "3Flute": string;
-  "4Flute": string;
-  "2Flute - PowerA": string;
-  "3Flute - PowerA": string;
-  "4Flute - PowerA": string;
-}
-
-export interface FractionalCSVRow {
-  OD: string;
-  LOC: string;
-  SHK: string;
-  OAL: string;
-  "2-Flute": string;
-  "3-Flute": string;
-  "4 Flute": string;
-  "2-Flute PowerA": string;
-  "3- Flute PowerA": string;
-  "4 Flute PowerA": string;
-}
-
-export interface ExtraLongCSVRow {
-  OD: string;
-  LOC: string;
-  SHK: string;
-  OAL: string;
-  Uncoated: string;
-  PowerA: string;
 }

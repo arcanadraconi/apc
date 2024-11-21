@@ -1,8 +1,10 @@
 declare module 'node-pdftk' {
   interface PDFDocument {
-    input(pdfPath: string): Promise<PDFDocument>;
+    input(pdfPath: string): PDFDocument;
     burst(outputPattern: string): Promise<string[]>;
-    output(): Promise<Buffer>;
+    output(outputPath?: string): Promise<Buffer>;
+    dumpData(): Promise<string>;
+    cat(pageRange: string): PDFDocument;
   }
 
   function input(pdfPath: string): PDFDocument;

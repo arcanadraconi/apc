@@ -6,146 +6,117 @@ export const categories: Category[] = [
     name: 'STANDARD ENDMILLS',
     description: 'Standard precision end mills for general milling applications',
     image: '/src/components/images/cat1.png',
-    background: 'bg-blue-900',
+    background: 'bg-blue-900/20',
     subcategories: [
-      // ... existing subcategories ...
+      {
+        id: 'square-endmills',
+        name: 'SQUARE END MILLS',
+        description: 'Standard square end mills with multiple flute options',
+        categoryId: 'standard-endmills',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL', '2-Flute', '3-Flute', '4-Flute', '2-F Power A', '3-F Power A', '4-F Power A'],
+        subTypes: [
+          {
+            id: 'fractional-square',
+            name: 'Fractional Square End Mills',
+            description: 'Imperial dimensioned square end mills',
+            dimensionType: 'fractional',
+            specifications: ['OD', 'LOC', 'SHK', 'OAL']
+          },
+          {
+            id: 'metric-square',
+            name: 'Metric Square End Mills',
+            description: 'Metric dimensioned square end mills',
+            dimensionType: 'metric',
+            specifications: ['OD', 'LOC', 'SHK', 'OAL']
+          },
+          {
+            id: 'extra-long-square',
+            name: 'Extra Long Square End Mills',
+            description: 'Extended length square end mills',
+            dimensionType: 'extra-long',
+            specifications: ['OD', 'LOC', 'SHK', 'OAL']
+          }
+        ]
+      }
     ]
   },
   {
-    id: 'high-performance-endmills',
-    name: 'HIGH PERFORMANCE ENDMILLS',
-    description: 'Advanced end mills for superior performance and tool life',
+    id: 'high-performance',
+    name: 'HIGH PERFORMANCE',
+    description: 'Advanced cutting tools for demanding applications',
     image: '/src/components/images/cat2.png',
-    background: 'bg-purple-900',
+    background: 'bg-purple-900/20',
     subcategories: [
       {
-        id: 'v4-square-endmills',
-        name: 'V4 Square End Mills',
-        description: 'Variable helix and index design for reduced harmonics',
-        categoryId: 'high-performance-endmills',
-        specifications: ['OD', 'LOC', 'SHK', 'OAL', '4-Flute']
-      },
-      {
-        id: 'v4-ball-endmills',
-        name: 'V4 Ball End Mills',
-        description: 'Variable helix ball nose design for 3D machining',
-        categoryId: 'high-performance-endmills',
-        specifications: ['OD', 'LOC', 'SHK', 'OAL', '4-Flute']
+        id: 'variable-helix',
+        name: 'VARIABLE HELIX END MILLS',
+        description: 'Reduced vibration and improved stability',
+        categoryId: 'high-performance',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
       }
     ]
   },
   {
-    id: 'thread-mills',
-    name: 'THREAD MILLS',
-    description: 'Precision thread milling tools for various thread forms',
+    id: 'specialty-endmills',
+    name: 'SPECIALTY END MILLS',
+    description: 'Specialized cutting tools for unique applications',
     image: '/src/components/images/cat3.png',
-    background: 'bg-green-900',
-    subcategories: [
-      {
-        id: 'un-thread-mills',
-        name: 'UN Thread Mills',
-        description: 'For unified national thread forms',
-        categoryId: 'thread-mills',
-        specifications: ['Thread Size', 'OD', 'LOC', 'SHK', 'OAL']
-      },
-      {
-        id: 'metric-thread-mills',
-        name: 'Metric Thread Mills',
-        description: 'For metric thread forms',
-        categoryId: 'thread-mills',
-        specifications: ['Thread Size', 'OD', 'LOC', 'SHK', 'OAL']
-      }
-    ]
-  },
-  {
-    id: 'drills',
-    name: 'DRILLS',
-    description: 'High-performance drilling solutions',
-    image: '/src/components/images/cat4.png',
-    background: 'bg-red-900',
-    subcategories: [
-      {
-        id: 'carbide-drills',
-        name: 'Carbide Drills',
-        description: 'Solid carbide drills for precision hole-making',
-        categoryId: 'drills',
-        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
-      },
-      {
-        id: 'high-performance-drills',
-        name: 'High Performance Drills',
-        description: 'Advanced geometry drills for difficult materials',
-        categoryId: 'drills',
-        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
-      }
-    ]
-  },
-  {
-    id: 'reamers',
-    name: 'REAMERS',
-    description: 'Precision hole finishing tools',
-    image: '/src/components/images/cat5.png',
-    background: 'bg-yellow-900',
-    subcategories: [
-      {
-        id: 'carbide-reamers',
-        name: 'Carbide Reamers',
-        description: 'Solid carbide reamers for precise hole sizing',
-        categoryId: 'reamers',
-        specifications: ['Diameter', 'LOC', 'SHK', 'OAL']
-      },
-      {
-        id: 'adjustable-reamers',
-        name: 'Adjustable Reamers',
-        description: 'Adjustable diameter reamers for flexible sizing',
-        categoryId: 'reamers',
-        specifications: ['Diameter Range', 'LOC', 'SHK', 'OAL']
-      }
-    ]
-  },
-  {
-    id: 'specialty-tools',
-    name: 'SPECIALTY TOOLS',
-    description: 'Custom and special application cutting tools',
-    image: '/src/components/images/cat6.png',
-    background: 'bg-indigo-900',
+    background: 'bg-green-900/20',
     subcategories: [
       {
         id: 'chamfer-mills',
-        name: 'Chamfer Mills',
+        name: 'CHAMFER MILLS',
         description: 'For precise edge breaking and chamfering',
-        categoryId: 'specialty-tools',
-        specifications: ['Diameter', 'Angle', 'LOC', 'SHK', 'OAL']
-      },
+        categoryId: 'specialty-endmills',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
+      }
+    ]
+  },
+  {
+    id: 'threading-tools',
+    name: 'THREADING TOOLS',
+    description: 'Precision tools for thread milling operations',
+    image: '/src/components/images/cat4.png',
+    background: 'bg-red-900/20',
+    subcategories: [
       {
-        id: 'deburring-tools',
-        name: 'Deburring Tools',
-        description: 'For efficient burr removal and edge finishing',
-        categoryId: 'specialty-tools',
-        specifications: ['Diameter', 'Style', 'LOC', 'SHK', 'OAL']
+        id: 'thread-mills',
+        name: 'THREAD MILLS',
+        description: 'For internal and external threading',
+        categoryId: 'threading-tools',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
+      }
+    ]
+  },
+  {
+    id: 'drilling-tools',
+    name: 'DRILLING TOOLS',
+    description: 'High-precision drilling solutions',
+    image: '/src/components/images/cat5.png',
+    background: 'bg-yellow-900/20',
+    subcategories: [
+      {
+        id: 'carbide-drills',
+        name: 'CARBIDE DRILLS',
+        description: 'Solid carbide drilling tools',
+        categoryId: 'drilling-tools',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
       }
     ]
   },
   {
     id: 'micro-tools',
     name: 'MICRO TOOLS',
-    description: 'Ultra-small diameter cutting tools',
-    image: '/src/components/images/cat7.png',
-    background: 'bg-pink-900',
+    description: 'Ultra-precise tools for micro-machining',
+    image: '/src/components/images/cat6.png',
+    background: 'bg-indigo-900/20',
     subcategories: [
       {
         id: 'micro-endmills',
-        name: 'Micro End Mills',
-        description: 'Miniature end mills for precision machining',
+        name: 'MICRO END MILLS',
+        description: 'Miniature cutting tools',
         categoryId: 'micro-tools',
-        specifications: ['Diameter', 'LOC', 'SHK', 'OAL', 'Flutes']
-      },
-      {
-        id: 'micro-drills',
-        name: 'Micro Drills',
-        description: 'Small diameter precision drills',
-        categoryId: 'micro-tools',
-        specifications: ['Diameter', 'Drill Depth', 'OAL', 'Shank Type']
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
       }
     ]
   },
@@ -153,29 +124,42 @@ export const categories: Category[] = [
     id: 'indexable-tools',
     name: 'INDEXABLE TOOLS',
     description: 'Tools with replaceable cutting inserts',
-    image: '/src/components/images/cat8.png',
-    background: 'bg-cyan-900',
+    image: '/src/components/images/cat7.png',
+    background: 'bg-pink-900/20',
     subcategories: [
       {
         id: 'indexable-endmills',
-        name: 'Indexable End Mills',
+        name: 'INDEXABLE END MILLS',
         description: 'End mills with indexable inserts',
         categoryId: 'indexable-tools',
-        specifications: ['Body Diameter', 'Insert Size', 'LOC', 'SHK', 'OAL']
-      },
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
+      }
+    ]
+  },
+  {
+    id: 'tool-holders',
+    name: 'TOOL HOLDERS',
+    description: 'Premium tool holding solutions',
+    image: '/src/components/images/cat8.png',
+    background: 'bg-orange-900/20',
+    subcategories: [
       {
-        id: 'indexable-drills',
-        name: 'Indexable Drills',
-        description: 'Drills with indexable inserts',
-        categoryId: 'indexable-tools',
-        specifications: ['Body Diameter', 'Insert Size', 'Drill Depth', 'Shank Type']
+        id: 'collet-chucks',
+        name: 'COLLET CHUCKS',
+        description: 'Precision collet holding systems',
+        categoryId: 'tool-holders',
+        specifications: ['OD', 'LOC', 'SHK', 'OAL']
       }
     ]
   }
 ];
 
+// Load processed products from JSON
+const processedProductsData = await import('./processed_products.json');
 export const products: Product[] = [
-  // Products will be populated from CSV/PDF data
+  ...processedProductsData.default.fractional,
+  ...processedProductsData.default.metric,
+  ...processedProductsData.default.extraLong
 ];
 
 // Helper function to parse CSV data into products
@@ -190,7 +174,7 @@ export function parseCSVToProducts(csvData: string[][], subcategoryId: string): 
       category: 'standard-endmills',
       subcategory: subcategoryId,
       description: `End mill with ${loc}" length of cut`,
-      image: '/images/products/endmill.png',
+      image: '/src/components/images/products/endmill.png',
       specifications: {
         diameter: od,
         lengthOfCut: loc,

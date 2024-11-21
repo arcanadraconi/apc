@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import pdftk from 'node-pdftk';
 import pdfParse from 'pdf-parse';
-import { Product, ProductSpecification } from '../types/catalog';
+import type { Product, ProductSpecification } from '../types/catalog';
 
 interface ExtractedData {
   text: string;
@@ -17,16 +17,16 @@ export async function extractFromPDF(pdfPath: string): Promise<ExtractedData> {
   
   // Extract images using node-pdftk
   const pdfDoc = pdftk.input(pdfPath);
-  const images = await pdfDoc.burst('output_%d.png');
+  const images: string[] = await pdfDoc.burst('output_%d.png');
   
   // Read extracted images into buffers
   const imageBuffers = await Promise.all(
-    images.map(imagePath => fs.readFile(imagePath))
+    images.map((imagePath: string) => fs.readFile(imagePath))
   );
   
   // Clean up temporary image files
   await Promise.all(
-    images.map(imagePath => fs.unlink(imagePath))
+    images.map((imagePath: string) => fs.unlink(imagePath))
   );
   
   return {
@@ -109,20 +109,4 @@ function isCompleteProduct(product: Partial<Product>): boolean {
     product.specifications?.overallLength &&
     product.specifications?.partNumber
   );
-}
-
-// Main function to process PDF and create database
-export async function createDatabaseFromPDF(pdfPath: string): Promise<Product[]> {
-  try {
-    const { text, images } = await extractFromPDF(pdfPath);
-    const products = parseProductData(text);
-    
-    // Associate images with products if needed
-    // This will depend on how images are organized in your PDF
-    
-    return products;
-  } catch (error) {
-    console.error('Error processing PDF:', error);
-    throw error;
-  }
 }
