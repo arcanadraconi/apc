@@ -312,6 +312,25 @@ const subcategories = [
         csvFile: 'MET Short Flute Necked Square.csv'
       }
     ]
+  },
+  {
+    id: 'short-flute-reduced',
+    name: 'SHORT FLUTE REDUCED SHANK',
+    description: 'End mills with short flute and reduced shank',
+    types: [
+      {
+        id: 'metric-short-flute-reduced-square',
+        name: 'Metric Short Flute Square End Reduced Shank',
+        description: 'Metric dimensioned short flute square end mills with reduced shank',
+        csvFile: 'MET Short Flute Square End Reduced Shank.csv'
+      },
+      {
+        id: 'metric-short-flute-reduced-ball',
+        name: 'Metric Short Flute Ball End Reduced Shank',
+        description: 'Metric dimensioned short flute ball end mills with reduced shank',
+        csvFile: 'MET Short Flute Ball End Reduced Shank.csv'
+      }
+    ]
   }
 ];
 
