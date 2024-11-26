@@ -1,5 +1,5 @@
-import React from 'react';
 import { ChevronRight } from 'lucide-react';
+import { Category, Subcategory } from '../../types/catalog';
 
 interface CategoryNavProps {
   categories: Category[];
@@ -38,7 +38,7 @@ const CategoryNav: React.FC<CategoryNavProps> = ({
             
             {selectedCategory === category.id && (
               <div className="ml-4 mt-2 space-y-1">
-                {category.subcategories.map((subcategory) => (
+                {category.subcategories.map((subcategory: Subcategory) => (
                   <button
                     key={subcategory.id}
                     onClick={() => onSubcategorySelect(subcategory.id)}

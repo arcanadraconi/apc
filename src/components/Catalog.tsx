@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, Filter, ChevronDown, ChevronRight, X, ShoppingCart } from 'lucide-react';
-import { Category, Product, SubType } from '../types/catalog';
+import { Product, SubType } from '../types/catalog';
 import { categories, products } from '../data/catalog';
 
 const Catalog = () => {

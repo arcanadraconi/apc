@@ -1,4 +1,3 @@
-import React from 'react';
 import { Trash2, Send } from 'lucide-react';
 import { QuoteItem } from '../../types/catalog';
 
@@ -27,21 +26,15 @@ const QuoteBuilder: React.FC<QuoteBuilderProps> = ({
         <div className="space-y-4">
           {items.map((item) => (
             <div
-              key={item.product.id}
+              key={item.id}
               className="flex items-center gap-4 bg-zinc-700 p-3 rounded-lg"
             >
-              <img
-                src={item.product.image}
-                alt={item.product.name}
-                className="w-16 h-16 object-cover rounded"
-              />
-              
               <div className="flex-1 min-w-0">
                 <h4 className="text-white font-medium truncate">
-                  {item.product.name}
+                  Part #{item.id}
                 </h4>
                 <p className="text-sm text-gray-400 truncate">
-                  {item.product.specifications.diameter} - {item.product.specifications.material}
+                  {item.specs}
                 </p>
               </div>
               
@@ -50,11 +43,11 @@ const QuoteBuilder: React.FC<QuoteBuilderProps> = ({
                   type="number"
                   min="1"
                   value={item.quantity}
-                  onChange={(e) => onUpdateQuantity(item.product.id, parseInt(e.target.value))}
+                  onChange={(e) => onUpdateQuantity(item.id, parseInt(e.target.value))}
                   className="w-20 bg-zinc-600 border border-zinc-500 rounded px-2 py-1 text-white"
                 />
                 <button
-                  onClick={() => onRemoveItem(item.product.id)}
+                  onClick={() => onRemoveItem(item.id)}
                   className="p-2 hover:bg-zinc-600 rounded-full transition-colors"
                 >
                   <Trash2 className="h-5 w-5 text-gray-400" />

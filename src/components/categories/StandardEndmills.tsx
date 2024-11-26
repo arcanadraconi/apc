@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronDown, ChevronRight, ShoppingCart } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ChevronRight, ShoppingCart } from 'lucide-react';
+import { ComponentProps } from '../../types/catalog';
 
 interface BaseToolData {
   OD: string;
@@ -15,17 +16,15 @@ interface StandardToolData extends BaseToolData {
   '2-Flute PowerA': string;
   '3- Flute PowerA': string;
   '4 Flute PowerA': string;
+  [key: string]: string; // Add index signature for string indexing
 }
 
 interface ReducedShankToolData extends BaseToolData {
   PartID: string;
+  [key: string]: string; // Add index signature for string indexing
 }
 
 type ToolData = StandardToolData | ReducedShankToolData;
-
-interface StandardEndmillsProps {
-  onAddToQuote: (item: { id: string; quantity: number; specs: string }) => void;
-}
 
 const isReducedShankTool = (type: { id: string }): boolean => {
   return type.id.includes('reduced-shank');
@@ -346,7 +345,7 @@ const subcategories = [
   }
 ];
 
-const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => {
+const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState(subcategories[0]);
   const [selectedType, setSelectedType] = useState<null | {
     id: string;
@@ -397,7 +396,7 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
                 SHK: values[2],
                 OAL: values[3],
                 PartID: values[4]
-              };
+              } as ReducedShankToolData;
             } else {
               return {
                 OD: values[0],
@@ -410,7 +409,7 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
                 '2-Flute PowerA': values[7],
                 '3- Flute PowerA': values[8],
                 '4 Flute PowerA': values[9]
-              };
+              } as StandardToolData;
             }
           });
           setToolData(data);
@@ -552,7 +551,7 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
 
         {/* Right Side - Selected Subcategory Content */}
         <div className="w-2/3">
-          <div className="bg-zinc-800 rounded-xl p-6 sticky top-20"> {/* Updated sticky position to top-16 */}
+          <div className="bg-zinc-800 rounded-xl p-6 sticky top-20">
             <h2 className="text-xl font-semibold text-white mb-2">{selectedSubcategory.name}</h2>
             <p className="text-gray-400 mb-6">{selectedSubcategory.description}</p>
 

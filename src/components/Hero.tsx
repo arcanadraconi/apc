@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImage from './hero.png';
 
 const Hero = () => {

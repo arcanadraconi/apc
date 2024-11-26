@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import { ChevronDown, ShoppingCart, X } from 'lucide-react';
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 import { categories } from '../../data/catalog';
-import { Product } from '../../types/catalog';
+import { ComponentProps } from '../../types/catalog';
 
-const RoughingEndmills = () => {
+const RoughingEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
   const [selectedSubType, setSelectedSubType] = useState<string | null>(null);
   const [selectedSpecs, setSelectedSpecs] = useState<Record<string, string>>({});
-  const [quoteItems, setQuoteItems] = useState<Product[]>([]);
 
   const category = categories.find(c => c.id === 'roughing-endmills');
   if (!category) return null;
@@ -26,10 +25,24 @@ const RoughingEndmills = () => {
   const handleSpecChange = (e: React.ChangeEvent<HTMLSelectElement>, specName: string) => {
     e.preventDefault();
     const value = e.target.value;
-    setSelectedSpecs(prev => ({
+    setSelectedSpecs((prev: Record<string, string>) => ({
       ...prev,
       [specName]: value
     }));
+  };
+
+  const handleAddToQuote = () => {
+    if (selectedSubType && Object.keys(selectedSpecs).length > 0) {
+      const specs = Object.entries(selectedSpecs)
+        .map(([key, value]) => `${key}: ${value}`)
+        .join(', ');
+
+      onAddToQuote({
+        id: `${selectedSubType}-${Object.values(selectedSpecs).join('-')}`,
+        quantity: 1,
+        specs
+      });
+    }
   };
 
   return (
@@ -115,6 +128,18 @@ const RoughingEndmills = () => {
                         </select>
                       </div>
                     ))}
+
+                    <button
+                      onClick={handleAddToQuote}
+                      disabled={Object.keys(selectedSpecs).length === 0}
+                      className={`mt-6 w-full px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition-all duration-300 ${
+                        Object.keys(selectedSpecs).length > 0
+                          ? 'bg-yellow-500 text-zinc-900 hover:bg-yellow-400'
+                          : 'bg-zinc-700 text-gray-500 cursor-not-allowed'
+                      }`}
+                    >
+                      Add to Quote
+                    </button>
                   </div>
                 )}
               </div>

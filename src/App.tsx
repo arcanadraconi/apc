@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { X, ShoppingCart, ChevronRight } from 'lucide-react';
 import Navbar from './components/Navbar';
@@ -13,12 +13,7 @@ import MicroEndmills from './components/categories/MicroEndmills';
 import CarbideBurrs from './components/categories/CarbideBurrs';
 import CustomSolutions from './components/categories/CustomSolutions';
 import { categories } from './data/catalog';
-
-interface QuoteItem {
-  id: string;
-  quantity: number;
-  specs: string;
-}
+import { QuoteItem, Category } from './types/catalog';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -96,7 +91,7 @@ function App() {
                     // Grid view of all categories
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {categories.map((category) => (
+                        {categories.map((category: Category) => (
                           <div
                             key={category.id}
                             className={`flex flex-col rounded-2xl overflow-hidden hover:bg-zinc-700/80 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 cursor-pointer ${category.background}`}

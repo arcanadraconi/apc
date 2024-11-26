@@ -41,6 +41,8 @@ export interface Product {
   image: string;
   specifications: Specification;
   variants: ProductVariants;
+  technicalDrawing?: string;
+  notes?: string;
 }
 
 export interface SubType {
@@ -77,4 +79,30 @@ export interface CSVFormat {
   hasNeckLength?: boolean;
   hasSixFlute?: boolean;
   columns: string[];
+}
+
+// Quote related interfaces
+export interface QuoteItem {
+  id: string;
+  quantity: number;
+  specs: string;
+}
+
+export interface ComponentProps {
+  onAddToQuote: (item: QuoteItem) => void;
+}
+
+// High Performance Endmills specific interfaces
+export interface ToolData {
+  OD: string;
+  LOC: string;
+  SHK: string;
+  OAL: string;
+  'PowerA No Flat': string;
+  'PowerA With Flat': string;
+  [key: string]: string; // Index signature for variant access
+}
+
+export interface HighPerformanceEndmillsProps {
+  onAddToQuote: (item: QuoteItem) => void;
 }

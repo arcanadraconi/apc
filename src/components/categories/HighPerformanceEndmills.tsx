@@ -1,19 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronDown, ShoppingCart } from 'lucide-react';
 import { categories } from '../../data/catalog';
-
-interface ToolData {
-  OD: string;
-  LOC: string;
-  SHK: string;
-  OAL: string;
-  'PowerA No Flat': string;
-  'PowerA With Flat': string;
-}
-
-interface HighPerformanceEndmillsProps {
-  onAddToQuote: (item: { id: string; quantity: number; specs: string }) => void;
-}
+import { ToolData, HighPerformanceEndmillsProps } from '../../types/catalog';
 
 const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAddToQuote }) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
@@ -93,6 +81,10 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
     }
 
     // Get unique values for the field
+    if (field === 'variant') {
+      return ['PowerA No Flat', 'PowerA With Flat'];
+    }
+
     const values = Array.from(new Set(filteredData.map(item => item[field])));
     return values;
   };
@@ -119,7 +111,7 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
       tool.LOC === selectedSpecs.LOC &&
       tool.SHK === selectedSpecs.SHK &&
       tool.OAL === selectedSpecs.OAL &&
-      (tool[selectedSpecs.variant as keyof ToolData] !== '')
+      tool[selectedSpecs.variant] !== ''
     );
   };
 
@@ -127,7 +119,7 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
     const tool = getMatchingTool();
     if (!tool) return;
 
-    const partNumber = tool[selectedSpecs.variant as keyof ToolData];
+    const partNumber = tool[selectedSpecs.variant];
     const specs = `${tool.OD}" x ${tool.LOC}" - ${partNumber}`;
     
     onAddToQuote({
@@ -290,7 +282,7 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
                                 t.LOC === selectedSpecs.LOC &&
                                 t.SHK === selectedSpecs.SHK &&
                                 t.OAL === selectedSpecs.OAL &&
-                                t[variant as keyof ToolData] !== ''
+                                t[variant] !== ''
                               );
                               
                               if (!tool) return null;

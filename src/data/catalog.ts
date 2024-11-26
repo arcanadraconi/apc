@@ -1,16 +1,6 @@
 import { Category, Product } from '../types/catalog';
 import processedProducts from './processed_products.json';
 
-// Group products by subcategory
-const groupedProducts = (processedProducts as Product[]).reduce((acc: { [key: string]: Product[] }, product) => {
-  const key = product.subcategory;
-  if (!acc[key]) {
-    acc[key] = [];
-  }
-  acc[key].push(product);
-  return acc;
-}, {});
-
 export const products: Product[] = processedProducts as Product[];
 
 export const categories: Category[] = [
