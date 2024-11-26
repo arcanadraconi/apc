@@ -1,23 +1,42 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronRight, ShoppingCart } from 'lucide-react';
 
-interface ToolData {
+interface BaseToolData {
   OD: string;
   LOC: string;
   SHK: string;
   OAL: string;
+}
+
+interface StandardToolData extends BaseToolData {
   '2-Flute': string;
   '3-Flute': string;
   '4 Flute': string;
   '2-Flute PowerA': string;
   '3- Flute PowerA': string;
   '4 Flute PowerA': string;
-  [key: string]: string;
+  PartID?: never;
 }
+
+interface ReducedShankToolData extends BaseToolData {
+  PartID: string;
+  '2-Flute'?: never;
+  '3-Flute'?: never;
+  '4 Flute'?: never;
+  '2-Flute PowerA'?: never;
+  '3- Flute PowerA'?: never;
+  '4 Flute PowerA'?: never;
+}
+
+type ToolData = StandardToolData | ReducedShankToolData;
 
 interface StandardEndmillsProps {
   onAddToQuote: (item: { id: string; quantity: number; specs: string }) => void;
 }
+
+const isReducedShankTool = (type: { id: string }): boolean => {
+  return type.id.includes('reduced-shank');
+};
 
 const subcategories = [
   {
@@ -322,13 +341,13 @@ const subcategories = [
         id: 'metric-short-flute-reduced-square',
         name: 'Metric Short Flute Square End Reduced Shank',
         description: 'Metric dimensioned short flute square end mills with reduced shank',
-        csvFile: 'MET Short Flute Square End Reduced Shank.csv'
+        csvFile: 'Short Flute Square End Reduced Shank.csv'
       },
       {
         id: 'metric-short-flute-reduced-ball',
         name: 'Metric Short Flute Ball End Reduced Shank',
         description: 'Metric dimensioned short flute ball end mills with reduced shank',
-        csvFile: 'MET Short Flute Ball End Reduced Shank.csv'
+        csvFile: 'Short Flute Ball End Reduced Shank.csv'
       }
     ]
   }
@@ -378,18 +397,28 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
           const rows = text.split('\n').slice(1); // Skip header
           const data = rows.map(row => {
             const values = row.split(',').map(v => v.replace(/"/g, ''));
-            return {
-              OD: values[0],
-              LOC: values[1],
-              SHK: values[2],
-              OAL: values[3],
-              '2-Flute': values[4],
-              '3-Flute': values[5],
-              '4 Flute': values[6],
-              '2-Flute PowerA': values[7],
-              '3- Flute PowerA': values[8],
-              '4 Flute PowerA': values[9]
-            };
+            if (isReducedShankTool(selectedType)) {
+              return {
+                OD: values[0],
+                LOC: values[1],
+                SHK: values[2],
+                OAL: values[3],
+                PartID: values[4]
+              };
+            } else {
+              return {
+                OD: values[0],
+                LOC: values[1],
+                SHK: values[2],
+                OAL: values[3],
+                '2-Flute': values[4],
+                '3-Flute': values[5],
+                '4 Flute': values[6],
+                '2-Flute PowerA': values[7],
+                '3- Flute PowerA': values[8],
+                '4 Flute PowerA': values[9]
+              };
+            }
           });
           setToolData(data);
           // Reset selections when changing type
@@ -425,6 +454,10 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
 
     // Get unique values for the field
     if (field === 'flute') {
+      if (selectedType && isReducedShankTool(selectedType)) {
+        // For reduced shank tools, we only have one part number per configuration
+        return ['PartID'];
+      }
       return ['2-Flute', '3-Flute', '4 Flute', '2-Flute PowerA', '3- Flute PowerA', '4 Flute PowerA'];
     }
 
@@ -454,7 +487,9 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
       tool.LOC === selectedSpecs.LOC &&
       tool.SHK === selectedSpecs.SHK &&
       tool.OAL === selectedSpecs.OAL &&
-      tool[selectedSpecs.flute] !== ''
+      (selectedType && isReducedShankTool(selectedType) 
+        ? (tool as ReducedShankToolData).PartID !== ''
+        : (tool as StandardToolData)[selectedSpecs.flute] !== '')
     );
   };
 
@@ -462,7 +497,9 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
     const tool = getMatchingTool();
     if (!tool) return;
 
-    const partNumber = tool[selectedSpecs.flute];
+    const partNumber = selectedType && isReducedShankTool(selectedType)
+      ? (tool as ReducedShankToolData).PartID
+      : (tool as StandardToolData)[selectedSpecs.flute];
     const specs = `${tool.OD}" x ${tool.LOC}" - ${partNumber}`;
     
     onAddToQuote({
@@ -610,33 +647,63 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
 
                 {selectedSpecs.OAL && (
                   <div className="flex flex-col gap-2">
-                    <label className="text-gray-400">Flute Type</label>
+                    <label className="text-gray-400">
+                      {selectedType && isReducedShankTool(selectedType) ? 'Part Number' : 'Flute Type'}
+                    </label>
                     <div className="grid grid-cols-2 gap-4">
-                      {['2-Flute', '3-Flute', '4 Flute', '2-Flute PowerA', '3- Flute PowerA', '4 Flute PowerA'].map(flute => {
-                        const tool = toolData.find(t => 
-                          t.OD === selectedSpecs.OD &&
-                          t.LOC === selectedSpecs.LOC &&
-                          t.SHK === selectedSpecs.SHK &&
-                          t.OAL === selectedSpecs.OAL &&
-                          t[flute] !== ''
-                        );
-                        
-                        if (!tool) return null;
+                      {selectedType && isReducedShankTool(selectedType) ? (
+                        // For reduced shank tools, show the part number
+                        toolData
+                          .filter(t => 
+                            t.OD === selectedSpecs.OD &&
+                            t.LOC === selectedSpecs.LOC &&
+                            t.SHK === selectedSpecs.SHK &&
+                            t.OAL === selectedSpecs.OAL
+                          )
+                          .map(tool => {
+                            const partId = (tool as ReducedShankToolData).PartID;
+                            return (
+                              <button
+                                key={partId}
+                                onClick={() => handleSpecChange('flute', 'PartID')}
+                                className={`p-3 rounded-lg text-sm font-medium transition-all duration-300 ${
+                                  selectedSpecs.flute === 'PartID'
+                                    ? 'bg-yellow-500 text-zinc-900'
+                                    : 'bg-zinc-700 text-gray-300 hover:bg-zinc-600'
+                                }`}
+                              >
+                                {partId}
+                              </button>
+                            );
+                          })
+                      ) : (
+                        // For standard tools, show flute types
+                        ['2-Flute', '3-Flute', '4 Flute', '2-Flute PowerA', '3- Flute PowerA', '4 Flute PowerA'].map(flute => {
+                          const tool = toolData.find(t => 
+                            t.OD === selectedSpecs.OD &&
+                            t.LOC === selectedSpecs.LOC &&
+                            t.SHK === selectedSpecs.SHK &&
+                            t.OAL === selectedSpecs.OAL &&
+                            (t as StandardToolData)[flute] !== ''
+                          );
+                          
+                          if (!tool) return null;
 
-                        return (
-                          <button
-                            key={flute}
-                            onClick={() => handleSpecChange('flute', flute)}
-                            className={`p-3 rounded-lg text-sm font-medium transition-all duration-300 ${
-                              selectedSpecs.flute === flute
-                                ? 'bg-yellow-500 text-zinc-900'
-                                : 'bg-zinc-700 text-gray-300 hover:bg-zinc-600'
-                            }`}
-                          >
-                            {flute}
-                          </button>
-                        );
-                      })}
+                          return (
+                            <button
+                              key={flute}
+                              onClick={() => handleSpecChange('flute', flute)}
+                              className={`p-3 rounded-lg text-sm font-medium transition-all duration-300 ${
+                                selectedSpecs.flute === flute
+                                  ? 'bg-yellow-500 text-zinc-900'
+                                  : 'bg-zinc-700 text-gray-300 hover:bg-zinc-600'
+                              }`}
+                            >
+                              {flute}
+                            </button>
+                          );
+                        })
+                      )}
                     </div>
                   </div>
                 )}
