@@ -15,17 +15,10 @@ interface StandardToolData extends BaseToolData {
   '2-Flute PowerA': string;
   '3- Flute PowerA': string;
   '4 Flute PowerA': string;
-  PartID?: never;
 }
 
 interface ReducedShankToolData extends BaseToolData {
   PartID: string;
-  '2-Flute'?: never;
-  '3-Flute'?: never;
-  '4 Flute'?: never;
-  '2-Flute PowerA'?: never;
-  '3- Flute PowerA'?: never;
-  '4 Flute PowerA'?: never;
 }
 
 type ToolData = StandardToolData | ReducedShankToolData;
@@ -559,7 +552,7 @@ const StandardEndmills: React.FC<StandardEndmillsProps> = ({ onAddToQuote }) => 
 
         {/* Right Side - Selected Subcategory Content */}
         <div className="w-2/3">
-          <div className="bg-zinc-800 rounded-xl p-6">
+          <div className="bg-zinc-800 rounded-xl p-6 sticky top-20"> {/* Updated sticky position to top-16 */}
             <h2 className="text-xl font-semibold text-white mb-2">{selectedSubcategory.name}</h2>
             <p className="text-gray-400 mb-6">{selectedSubcategory.description}</p>
 
