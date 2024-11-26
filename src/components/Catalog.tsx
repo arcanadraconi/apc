@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, Filter, ChevronDown, ChevronRight, X, ShoppingCart } from 'lucide-react';
 import { Category, Product, SubType } from '../types/catalog';
 import { categories, products } from '../data/catalog';
@@ -11,6 +11,14 @@ const Catalog = () => {
   const [searchScope, setSearchScope] = useState<'all' | 'category'>('all');
   const [selectedSpecs, setSelectedSpecs] = useState<Record<string, string>>({});
   const [quoteItems, setQuoteItems] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    if (selectedSubType) {
+      const filtered = getFilteredProducts();
+      setFilteredProducts(filtered);
+    }
+  }, [selectedSubType, selectedSubcategory]);
 
   const handleCategoryClick = (categoryId: string) => {
     setSelectedCategory(categoryId);
@@ -46,11 +54,28 @@ const Catalog = () => {
     }));
   };
 
+  const compareFractions = (a: string, b: string): number => {
+    const toDecimal = (str: string): number => {
+      if (str.includes('-')) {
+        const [whole, fraction] = str.split('-');
+        const [num, den] = fraction.split('/').map(Number);
+        return Number(whole) + (num / den);
+      }
+      if (str.includes('/')) {
+        const [num, den] = str.split('/').map(Number);
+        return num / den;
+      }
+      return Number(str);
+    };
+
+    return toDecimal(a) - toDecimal(b);
+  };
+
   const getFilteredProducts = () => {
     const subType = getCurrentSubType();
     if (!subType) return [];
 
-    let filteredProducts = products.filter(product => {
+    let filtered = products.filter(product => {
       if (product.subcategory !== selectedSubcategory) return false;
 
       switch (subType.dimensionType) {
@@ -59,48 +84,60 @@ const Catalog = () => {
         case 'metric':
           return !isNaN(Number(product.specifications.diameter));
         case 'extra-long':
-          return product.specifications.lengthOfCut === '75' || parseInt(product.specifications.lengthOfCut) >= 38;
+          const loc = product.specifications.lengthOfCut;
+          const od = product.specifications.diameter;
+          const ratio = compareFractions(loc, od);
+          return ratio >= 4;
         default:
           return true;
       }
     });
 
-    for (const [spec, value] of Object.entries(selectedSpecs)) {
-      if (!value) continue;
-      filteredProducts = filteredProducts.filter(p => 
-        p.specifications[spec as keyof typeof p.specifications] === value
-      );
-    }
+    // Sort by diameter
+    filtered.sort((a, b) => 
+      compareFractions(a.specifications.diameter, b.specifications.diameter)
+    );
 
-    return filteredProducts;
+    return filtered;
   };
 
   const getAvailableValues = (specName: string): string[] => {
-    const filteredProducts = getFilteredProducts();
+    if (!filteredProducts.length) return [];
     
-    if (Object.keys(selectedSpecs).length === 0 && specName === 'OD') {
-      return Array.from(new Set(
-        filteredProducts.map(p => p.specifications.diameter)
-      )).filter(Boolean).sort((a, b) => {
-        const aNum = a.includes('/') ? eval(a) : parseFloat(a);
-        const bNum = b.includes('/') ? eval(b) : parseFloat(b);
-        return aNum - bNum;
-      }) as string[];
+    let values: string[] = [];
+    
+    switch (specName) {
+      case 'OD':
+        values = filteredProducts.map(p => p.specifications.diameter);
+        break;
+      case 'LOC':
+        if (!selectedSpecs.OD) return [];
+        values = filteredProducts
+          .filter(p => p.specifications.diameter === selectedSpecs.OD)
+          .map(p => p.specifications.lengthOfCut);
+        break;
+      case 'SHK':
+        if (!selectedSpecs.LOC) return [];
+        values = filteredProducts
+          .filter(p => 
+            p.specifications.diameter === selectedSpecs.OD &&
+            p.specifications.lengthOfCut === selectedSpecs.LOC
+          )
+          .map(p => p.specifications.shankDiameter);
+        break;
+      case 'OAL':
+        if (!selectedSpecs.SHK) return [];
+        values = filteredProducts
+          .filter(p => 
+            p.specifications.diameter === selectedSpecs.OD &&
+            p.specifications.lengthOfCut === selectedSpecs.LOC &&
+            p.specifications.shankDiameter === selectedSpecs.SHK
+          )
+          .map(p => p.specifications.overallLength);
+        break;
     }
 
-    return Array.from(new Set(
-      filteredProducts.map(p => {
-        if (specName === 'OD') return p.specifications.diameter;
-        if (specName === 'LOC') return p.specifications.lengthOfCut;
-        if (specName === 'SHK') return p.specifications.shankDiameter;
-        if (specName === 'OAL') return p.specifications.overallLength;
-        return '';
-      })
-    )).filter(Boolean).sort((a, b) => {
-      const aNum = a.includes('/') ? eval(a) : parseFloat(a);
-      const bNum = b.includes('/') ? eval(b) : parseFloat(b);
-      return aNum - bNum;
-    }) as string[];
+    return Array.from(new Set(values)).sort((a, b) => compareFractions(a, b));
   };
 
   const getCurrentSubType = (): SubType | null => {
@@ -111,16 +148,16 @@ const Catalog = () => {
   };
 
   const getMatchingProduct = (): Product | null => {
-    const filteredProducts = getFilteredProducts();
-    
-    return filteredProducts.find(product => {
-      for (const [spec, value] of Object.entries(selectedSpecs)) {
-        if (product.specifications[spec as keyof typeof product.specifications] !== value) {
-          return false;
-        }
-      }
-      return true;
-    }) || null;
+    if (!selectedSpecs.OD || !selectedSpecs.LOC || !selectedSpecs.SHK || !selectedSpecs.OAL) {
+      return null;
+    }
+
+    return filteredProducts.find(product => 
+      product.specifications.diameter === selectedSpecs.OD &&
+      product.specifications.lengthOfCut === selectedSpecs.LOC &&
+      product.specifications.shankDiameter === selectedSpecs.SHK &&
+      product.specifications.overallLength === selectedSpecs.OAL
+    ) || null;
   };
 
   const handleAddToQuote = (product: Product) => {

@@ -1,7 +1,5 @@
 import { promises as fs } from 'fs';
-import pdftk from 'node-pdftk';
 import pdfParse from 'pdf-parse';
-import type { Product, ProductSpecification } from '../types/catalog';
 
 interface ExtractedData {
   text: string;
@@ -15,32 +13,18 @@ export async function extractFromPDF(pdfPath: string): Promise<ExtractedData> {
   // Extract text using pdf-parse
   const data = await pdfParse(dataBuffer);
   
-  // Extract images using node-pdftk
-  const pdfDoc = pdftk.input(pdfPath);
-  const images: string[] = await pdfDoc.burst('output_%d.png');
-  
-  // Read extracted images into buffers
-  const imageBuffers = await Promise.all(
-    images.map((imagePath: string) => fs.readFile(imagePath))
-  );
-  
-  // Clean up temporary image files
-  await Promise.all(
-    images.map((imagePath: string) => fs.unlink(imagePath))
-  );
-  
   return {
     text: data.text,
-    images: imageBuffers
+    images: [] // We'll focus on text extraction for now
   };
 }
 
 // Parse text into structured data
-export function parseProductData(text: string): Product[] {
-  const products: Product[] = [];
+export function parseProductData(text: string): any[] {
+  const products: any[] = [];
   const lines = text.split('\n');
   
-  let currentProduct: Partial<Product> = {};
+  let currentProduct: any = {};
   
   for (const line of lines) {
     // Example parsing logic - adjust based on actual PDF structure
@@ -60,7 +44,7 @@ export function parseProductData(text: string): Product[] {
     
     // When we have a complete product, add it to the array
     if (isCompleteProduct(currentProduct)) {
-      products.push(currentProduct as Product);
+      products.push(currentProduct);
       currentProduct = {};
     }
   }
@@ -68,7 +52,7 @@ export function parseProductData(text: string): Product[] {
   return products;
 }
 
-function parseDimensions(line: string): ProductSpecification | null {
+function parseDimensions(line: string): any | null {
   // Example dimension parsing logic
   const match = line.match(/OD\s*(\d+(?:\/\d+)?)\s*LOC\s*(\d+(?:\/\d+)?)\s*SHK\s*(\d+(?:\/\d+)?)\s*OAL\s*(\d+(?:\/\d+)?)/);
   if (match) {
@@ -101,7 +85,7 @@ function parsePartNumbers(line: string): Record<string, string> | null {
   return Object.keys(partNumbers).length > 0 ? partNumbers : null;
 }
 
-function isCompleteProduct(product: Partial<Product>): boolean {
+function isCompleteProduct(product: any): boolean {
   return !!(
     product.specifications?.diameter &&
     product.specifications?.lengthOfCut &&

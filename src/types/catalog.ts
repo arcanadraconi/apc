@@ -4,20 +4,28 @@ export interface ProductSpecification {
   lengthOfCut: string;
   shankDiameter: string;
   overallLength: string;
+  radius?: string;
+  taperAngle?: string;
+  neckLength?: string;
 }
+
+export type DimensionType = 'metric' | 'fractional' | 'extra-long';
 
 export interface Specification extends ProductSpecification {
   flutes?: number;
   coating?: string;
+  dimensionType?: DimensionType;
 }
 
 export interface ProductVariants {
   twoFlute?: string;
   threeFlute?: string;
   fourFlute?: string;
+  sixFlute?: string;
   twoFlutePowerA?: string;
   threeFlutePowerA?: string;
   fourFlutePowerA?: string;
+  sixFlutePowerA?: string;
   uncoated?: string;
   powerA?: string;
 }
@@ -28,13 +36,12 @@ export interface Product {
   name: string;
   category: string;
   subcategory: string;
+  subType?: string;
   description: string;
   image: string;
   specifications: Specification;
   variants: ProductVariants;
 }
-
-export type DimensionType = 'metric' | 'fractional' | 'extra-long';
 
 export interface SubType {
   id: string;
@@ -61,4 +68,13 @@ export interface Category {
   image: string;
   background: string;
   subcategories: Subcategory[];
+}
+
+// Helper type for CSV processing
+export interface CSVFormat {
+  hasRadius?: boolean;
+  hasTaperAngle?: boolean;
+  hasNeckLength?: boolean;
+  hasSixFlute?: boolean;
+  columns: string[];
 }
