@@ -1,5 +1,13 @@
 import { Category, Product } from '../types/catalog';
 import processedProducts from './processed_products.json';
+import cat1 from '../components/images/cat1.png';
+import cat2 from '../components/images/cat2.png';
+import cat3 from '../components/images/cat3.png';
+import cat4 from '../components/images/cat4.png';
+import cat5 from '../components/images/cat5.png';
+import cat6 from '../components/images/cat6.png';
+import cat7 from '../components/images/cat7.png';
+import cat8 from '../components/images/cat8.png';
 
 export const products: Product[] = processedProducts as Product[];
 
@@ -8,7 +16,7 @@ export const categories: Category[] = [
     id: 'standard-endmills',
     name: 'STANDARD ENDMILLS',
     description: 'Standard precision end mills for general milling applications',
-    image: '/src/components/images/cat1.png',
+    image: cat1,
     background: 'bg-blue-900/20',
     subcategories: [
       {
@@ -403,7 +411,7 @@ export const categories: Category[] = [
     id: 'high-performance-endmills',
     name: 'HIGH PERFORMANCE ENDMILLS',
     description: 'Advanced end mills for high-speed and demanding applications',
-    image: '/src/components/images/cat2.png',
+    image: cat2,
     background: 'bg-green-900/20',
     subcategories: [
       {
@@ -428,7 +436,7 @@ export const categories: Category[] = [
     id: 'specialty-endmills',
     name: 'SPECIALTY ENDMILLS',
     description: 'Specialized end mills for unique cutting requirements',
-    image: '/src/components/images/cat3.png',
+    image: cat3,
     background: 'bg-purple-900/20',
     subcategories: [
       {
@@ -453,7 +461,7 @@ export const categories: Category[] = [
     id: 'roughing-endmills',
     name: 'ROUGHING ENDMILLS',
     description: 'Heavy duty end mills for maximum material removal',
-    image: '/src/components/images/cat4.png',
+    image: cat4,
     background: 'bg-red-900/20',
     subcategories: [
       {
@@ -478,7 +486,7 @@ export const categories: Category[] = [
     id: 'thread-mills',
     name: 'THREAD MILLS',
     description: 'Precision tools for thread milling operations',
-    image: '/src/components/images/cat5.png',
+    image: cat5,
     background: 'bg-yellow-900/20',
     subcategories: [
       {
@@ -503,7 +511,7 @@ export const categories: Category[] = [
     id: 'micro-endmills',
     name: 'MICRO ENDMILLS',
     description: 'Ultra-precise tools for micro-machining applications',
-    image: '/src/components/images/cat6.png',
+    image: cat6,
     background: 'bg-indigo-900/20',
     subcategories: [
       {
@@ -528,7 +536,7 @@ export const categories: Category[] = [
     id: 'carbide-burrs',
     name: 'CARBIDE BURRS',
     description: 'Rotary cutting tools for deburring and surface finishing',
-    image: '/src/components/images/cat7.png',
+    image: cat7,
     background: 'bg-orange-900/20',
     subcategories: [
       {
@@ -553,7 +561,7 @@ export const categories: Category[] = [
     id: 'custom-solutions',
     name: 'CUSTOM SOLUTIONS',
     description: 'Customized cutting tools for specific applications',
-    image: '/src/components/images/cat8.png',
+    image: cat8,
     background: 'bg-teal-900/20',
     subcategories: [
       {
