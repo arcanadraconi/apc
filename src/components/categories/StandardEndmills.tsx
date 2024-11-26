@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight, ShoppingCart } from 'lucide-react';
 import { ComponentProps } from '../../types/catalog';
+import categoryImage from '../images/cat1.png';
 
 interface BaseToolData {
   OD: string;
@@ -16,12 +17,12 @@ interface StandardToolData extends BaseToolData {
   '2-Flute PowerA': string;
   '3- Flute PowerA': string;
   '4 Flute PowerA': string;
-  [key: string]: string; // Add index signature for string indexing
+  [key: string]: string;
 }
 
 interface ReducedShankToolData extends BaseToolData {
   PartID: string;
-  [key: string]: string; // Add index signature for string indexing
+  [key: string]: string;
 }
 
 type ToolData = StandardToolData | ReducedShankToolData;
@@ -30,6 +31,7 @@ const isReducedShankTool = (type: { id: string }): boolean => {
   return type.id.includes('reduced-shank');
 };
 
+// ... rest of subcategories array stays exactly the same ...
 const subcategories = [
   {
     id: 'square-endmills',
@@ -369,7 +371,6 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
   });
 
   useEffect(() => {
-    // Reset type when subcategory changes
     setSelectedType(null);
     setSelectedSpecs({
       OD: '',
@@ -381,12 +382,11 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
   }, [selectedSubcategory]);
 
   useEffect(() => {
-    // Load CSV data when type changes
     if (selectedType) {
       fetch(`/csv_data/${selectedType.csvFile}`)
         .then(response => response.text())
         .then(text => {
-          const rows = text.split('\n').slice(1); // Skip header
+          const rows = text.split('\n').slice(1);
           const data = rows.map(row => {
             const values = row.split(',').map(v => v.replace(/"/g, ''));
             if (isReducedShankTool(selectedType)) {
@@ -413,7 +413,6 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
             }
           });
           setToolData(data);
-          // Reset selections when changing type
           setSelectedSpecs({
             OD: '',
             LOC: '',
@@ -430,7 +429,6 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
 
     let filteredData = toolData;
 
-    // Filter based on previous selections
     if (field !== 'OD' && selectedSpecs.OD) {
       filteredData = filteredData.filter(item => item.OD === selectedSpecs.OD);
     }
@@ -444,24 +442,23 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
       filteredData = filteredData.filter(item => item.OAL === selectedSpecs.OAL);
     }
 
-    // Get unique values for the field
     if (field === 'flute') {
       if (selectedType && isReducedShankTool(selectedType)) {
-        // For reduced shank tools, we only have one part number per configuration
         return ['PartID'];
       }
-      return ['2-Flute', '3-Flute', '4 Flute', '2-Flute PowerA', '3- Flute PowerA', '4 Flute PowerA'];
+      return ['2-Flute', '3-Flute', '4 Flute', '2-Flute PowerA', '3- Flute PowerA', '4 Flute PowerA']
+        .filter(flute => filteredData.some(item => item[flute as keyof ToolData] !== ''));
     }
 
-    const values = Array.from(new Set(filteredData.map(item => item[field])));
-    return values;
+    return Array.from(new Set(filteredData.map(item => item[field as keyof ToolData])))
+      .filter(Boolean)
+      .sort();
   };
 
   const handleSpecChange = (field: keyof typeof selectedSpecs, value: string) => {
     setSelectedSpecs(prev => ({
       ...prev,
       [field]: value,
-      // Clear subsequent fields
       ...(field === 'OD' && { LOC: '', SHK: '', OAL: '', flute: '' }),
       ...(field === 'LOC' && { SHK: '', OAL: '', flute: '' }),
       ...(field === 'SHK' && { OAL: '', flute: '' }),
@@ -500,7 +497,6 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
       specs
     });
 
-    // Clear selections after adding to cart
     setSelectedSpecs({
       OD: '',
       LOC: '',
@@ -517,7 +513,7 @@ const StandardEndmills: React.FC<ComponentProps> = ({ onAddToQuote }) => {
         <div className="w-1/3">
           <div className="bg-zinc-800 rounded-2xl overflow-hidden mb-6">
             <img
-              src="/src/components/images/cat1.png"
+              src={categoryImage}
               alt="STANDARD ENDMILLS"
               className="w-full h-64 object-cover"
             />

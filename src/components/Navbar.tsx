@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logo from './apclogo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,8 +32,8 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <Link to="/">
                 <img 
-                  src="https://i.ibb.co/DpdvBpM/lightspiritux-httpss-mj-runi-Ba-VFsk-Gqag-httpss-mj-run-EUbpbjk-P8o-Q-1be2fd27-b9e8-4cfc-aedc-e1aa97.png"
-                  alt="PrecisionBits Logo"
+                  src={logo}
+                  alt="APC Logo"
                   className="h-12 w-auto"
                 />
               </Link>

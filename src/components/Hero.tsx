@@ -1,4 +1,5 @@
 import heroImage from './hero.png';
+import logo from './apclogo.png';
 
 const Hero = () => {
   return (
@@ -19,8 +20,13 @@ const Hero = () => {
       }}></div>
 
       {/* Content */}
-      <div className="relative mt-64 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div className="relative mt-560 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 pb-20">
         <div className="text-center">
+          <img 
+            src={logo} 
+            alt="APC Logo" 
+            className="h-60 w-auto mx-auto mb-8"
+          />
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
             Advanced Precision <br />
             <span className="text-yellow-500">Cutting Tools</span>

@@ -1,7 +1,59 @@
 import { useState, useEffect } from 'react';
 import { ChevronDown, ShoppingCart } from 'lucide-react';
-import { categories } from '../../data/catalog';
+import categoryImage from '../images/cat2.png';
 import { ToolData, HighPerformanceEndmillsProps } from '../../types/catalog';
+
+const category = {
+  id: 'high-performance-endmills',
+  name: 'HIGH PERFORMANCE ENDMILLS',
+  description: 'Advanced end mills for high-speed and demanding applications',
+  subcategories: [
+    {
+      id: 'v4-endmills',
+      name: 'V4 END MILLS',
+      description: 'High performance V4 series end mills',
+      subTypes: [
+        {
+          id: 'v4-square',
+          name: 'V4 Square End Mills',
+          description: 'V4 series square end mills'
+        },
+        {
+          id: 'v4-ball',
+          name: 'V4 Ball End Mills',
+          description: 'V4 series ball end mills'
+        },
+        {
+          id: 'v4-corner-radius',
+          name: 'V4 Corner Radius End Mills',
+          description: 'V4 series corner radius end mills'
+        }
+      ]
+    },
+    {
+      id: 'v5-endmills',
+      name: 'V5 END MILLS',
+      description: 'High performance V5 series end mills',
+      subTypes: [
+        {
+          id: 'v5-square',
+          name: 'V5 Square End Mills',
+          description: 'V5 series square end mills'
+        },
+        {
+          id: 'v5-ball',
+          name: 'V5 Ball End Mills',
+          description: 'V5 series ball end mills'
+        },
+        {
+          id: 'v5-corner-radius',
+          name: 'V5 Corner Radius End Mills',
+          description: 'V5 series corner radius end mills'
+        }
+      ]
+    }
+  ]
+};
 
 const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAddToQuote }) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
@@ -138,9 +190,6 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
     });
   };
 
-  const category = categories.find(c => c.id === 'high-performance-endmills');
-  if (!category) return null;
-
   return (
     <div className="min-h-screen bg-zinc-900">
       <div className="flex gap-8">
@@ -148,7 +197,7 @@ const HighPerformanceEndmills: React.FC<HighPerformanceEndmillsProps> = ({ onAdd
         <div className="w-1/3">
           <div className="bg-zinc-800 rounded-2xl overflow-hidden">
             <img
-              src={category.image}
+              src={categoryImage}
               alt={category.name}
               className="w-full h-64 object-cover"
             />
